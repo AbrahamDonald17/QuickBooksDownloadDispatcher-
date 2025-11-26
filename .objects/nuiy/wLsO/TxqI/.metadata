@@ -1,0 +1,16 @@
+﻿{
+  "Name": "QuickBooks Login",
+  "Type": "Screen",
+  "Id": "TxqIHkEJhkmnTSVl7GJ0DA",
+  "Reference": "sSBR3gtlDUCEvkvULjr_tA/TxqIHkEJhkmnTSVl7GJ0DA",
+  "ParentRef": "sSBR3gtlDUCEvkvULjr_tA/wLsOO5zy6U-2ZpMJhSGSaA",
+  "Created": "2025-11-19T05:35:25.8746688Z",
+  "Updated": "2025-11-19T05:38:07.1508216Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

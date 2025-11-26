@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Report Popup",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "S2GCQsfkaUqMPIG68Jwc5Q",
+  "Reference": "sSBR3gtlDUCEvkvULjr_tA/S2GCQsfkaUqMPIG68Jwc5Q",
+  "ParentRef": "sSBR3gtlDUCEvkvULjr_tA/tYPMV600o0elJL_Saz6PIg",
+  "Created": "2025-11-20T09:29:25.3177983Z",
+  "Updated": "2025-11-20T09:30:56.6618005Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Accountant",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "5Ms2fcZ-o0OoK_ojkjSFKw",
+  "Reference": "sSBR3gtlDUCEvkvULjr_tA/5Ms2fcZ-o0OoK_ojkjSFKw",
+  "ParentRef": "sSBR3gtlDUCEvkvULjr_tA/fE7UevWPE0aEU_LCyCTKdg",
+  "Created": "2025-11-19T06:51:31.1886328Z",
+  "Updated": "2025-11-19T06:53:38.3402367Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-XWvpcbtaUiN3lX9NPok1Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="2295f0f2-e843-426a-b7f4-7886631d0b55" DesignTimeRectangle="280, 100, 68, 23" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='No' cls='Button' /&gt;" Guid="df9a454b-387d-43e0-9f78-a56ee04aa7b0" ScopeSelectorArgument="&lt;wnd app='chrome.exe' title='Confirm Save As' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="ec172a1c0925013526ea7ad6f757e691.png" xmlns="">0BeybvvXWXEqp3B-hPObSGA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

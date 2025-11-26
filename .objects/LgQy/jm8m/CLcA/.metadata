@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Popup",
+  "Type": "Screen",
+  "Id": "CLcAeSNMcUiQTznUhs7lTw",
+  "Reference": "sSBR3gtlDUCEvkvULjr_tA/CLcAeSNMcUiQTznUhs7lTw",
+  "ParentRef": "sSBR3gtlDUCEvkvULjr_tA/jm8mbEQniUqujuJtMSsSMA",
+  "Created": "2025-11-19T14:14:32.0049499Z",
+  "Updated": "2025-11-19T14:15:55.9742718Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Standard reports",
+  "Type": "Element",
+  "TaxonomyType": "Tab",
+  "Id": "mLeP6AN7VkqmSuy1zHvkYA",
+  "Reference": "sSBR3gtlDUCEvkvULjr_tA/mLeP6AN7VkqmSuy1zHvkYA",
+  "ParentRef": "sSBR3gtlDUCEvkvULjr_tA/3dFi_V-_ZEu1Jepe8V2q-Q",
+  "Created": "2025-11-19T10:57:09.4088326Z",
+  "Updated": "2025-11-19T10:58:19.6682494Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

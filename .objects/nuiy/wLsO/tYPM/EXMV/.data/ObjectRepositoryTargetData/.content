@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="9zMjeBS-KUSq8aLWY7VaGQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="qbo.intuit.com/app/switchCompany" CVScreenId="1b4b7f2a-acdf-4ebe-bdff-5a2a64d5b570" DesignTimeRectangle="603, 321, 730, 89" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='header' /&gt;" Guid="abdf703f-3509-4491-84d0-212a59d35e77" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sorry, there was a problem!' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="ba59d5bcbc3be640e59f61f5414a8e3e.png" xmlns="">05MEV007lnU2HCQAOuyBeSg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

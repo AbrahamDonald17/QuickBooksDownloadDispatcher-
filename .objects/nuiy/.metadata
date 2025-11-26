@@ -1,0 +1,15 @@
+﻿{
+  "Name": "QuickBooks Login Screen",
+  "Type": "App",
+  "Id": "nuiyxDTmHUK57zdA95f_bw",
+  "Reference": "sSBR3gtlDUCEvkvULjr_tA/nuiyxDTmHUK57zdA95f_bw",
+  "Created": "2025-11-19T05:35:25.5711884Z",
+  "Updated": "2025-11-19T05:38:13.813676Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

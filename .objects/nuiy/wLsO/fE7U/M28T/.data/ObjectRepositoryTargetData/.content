@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="iWpHI0f86k-mC_4fs7WQjw" Reference="sSBR3gtlDUCEvkvULjr_tA/M28T7PvKmkGDv15k2DMOog" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="qbo.intuit.com/app/clients" CVScreenId="47c6b064-ce6c-4579-a6ef-6d52b5f2d8a3" DesignTimeRectangle="1888, 197, 24, 24" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentclass='oneIntuitAccountHeaderItem' /&gt;" Guid="8546c1aa-1b5b-4d6b-be8f-d0d656514972" ScopeSelectorArgument="&lt;html app='chrome.exe' title='QuickBooks' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="cf4f4a3258ecaae10dc375f8eb1370ef.png" xmlns="">03kIToEillUWFihGPwd32mA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

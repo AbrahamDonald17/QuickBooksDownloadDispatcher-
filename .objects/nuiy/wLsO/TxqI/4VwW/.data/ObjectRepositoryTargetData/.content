@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="6SLNej1m9UqvG7qos0E7JQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="accounts.intuit.com/app/sign-in" DesignTimeRectangle="798, 319, 340, 71" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='BUTTON' aaname='rsmith@insurepay.com*' /&gt;" Guid="e3f4b9d3-4bf6-4a61-a7e9-5c2163cd2b47" ScopeSelectorArgument="&lt;html app='chrome.exe' title='QuickBooks Online Login: Sign*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="859, 349, 266, 28" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Last accessed*on this device with Intuit' /&gt;" Guid="1d985e02-1eae-4026-a882-b606eff2d244" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="10dd81bfe7b760fc5e3e960e6603b170.png" xmlns="">0OXsvopVKS06-EUpMmHM91w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

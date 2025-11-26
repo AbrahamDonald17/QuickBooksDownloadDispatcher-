@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-tz-Pzk1Kk6R4CA8083wDw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="accounts.intuit.com/app/sign-in" CVScreenId="b564635f-d675-455d-baf6-1ba705b0051e" DesignTimeRectangle="934, 521, 68, 19" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Continue' parentid='ius-recaptcha-continue-btn' /&gt;" Guid="cfd5c34b-91a6-44a8-9d58-677febe55658" ScopeSelectorArgument="&lt;html app='chrome.exe' title='QuickBooks Online Login*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="4b32e8fabbb28b175ac19501abb575e7.png" xmlns="">0lInceoDJOkSV-xUukbXwAg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="caWxvqfXqECJeETkSbeJ6A" Reference="sSBR3gtlDUCEvkvULjr_tA/gqCrC-w0dUyvM_aKvARKyw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="accounts.intuit.com/app/sign-in" CVScreenId="d4420bfe-338b-4d7b-8b28-45530b002e18" DesignTimeRectangle="798, 587, 340, 62" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Use a different account ,' tag='BUTTON' /&gt;" Guid="0c72b770-a894-4b8a-b45f-9fe3b01e1b86" ScopeSelectorArgument="&lt;html app='chrome.exe' title='QuickBooks Online Login: Sign*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="6cc8a33a340bd68a597ca112e3cb381d.png" xmlns="">0xCDINDnCNEKfAZ5EHV9ZqQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

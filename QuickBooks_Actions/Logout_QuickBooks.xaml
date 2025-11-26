@@ -1,0 +1,210 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Logout_QuickBooks" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="Logout_QuickBooks_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Numerics</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Logout_QuickBooks" sap:VirtualizedContainerService.HintSize="945.2,723.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Default="Logout from QuickBooks" Name="strPageName" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:LogMessage DisplayName="Log Message - Page Started" sap:VirtualizedContainerService.HintSize="483.2,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Trace" Message="[strPageName+&quot; has started&quot;]" />
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="QuickBook Company" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="483.2,360" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="Simulate" OpenMode="Never" ScopeGuid="fcf12efd-0333-42b4-92c2-402c2fe2ee70" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,111.2" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NCheckState DisplayName="Check App State 'Profile'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="451.2,957.6" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="fcf12efd-0333-42b4-92c2-402c2fe2ee70" Timeout="[CInt(Config(&quot;MediumWait&quot;))]" Version="V5">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Profile button found" sap:VirtualizedContainerService.HintSize="449.6,502.4" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Profile'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="416,225.6" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="fcf12efd-0333-42b4-92c2-402c2fe2ee70" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="qbo.intuit.com/app/clients" CVScreenId="47c6b064-ce6c-4579-a6ef-6d52b5f2d8a3" ContentHash="iWpHI0f86k-mC_4fs7WQjw" DesignTimeRectangle="1888, 197, 24, 24" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentclass='oneIntuitAccountHeaderItem' /&gt;" Guid="8546c1aa-1b5b-4d6b-be8f-d0d656514972" InformativeScreenshot="cf4f4a3258ecaae10dc375f8eb1370ef.png" Reference="sSBR3gtlDUCEvkvULjr_tA/M28T7PvKmkGDv15k2DMOog" ScopeSelectorArgument="&lt;html app='chrome.exe' title='QuickBooks' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete" />
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="Button 'Signout'" Mode="Appears" Retry="True">
+                        <uix:VerifyExecutionOptions.Target>
+                          <uix:TargetAnchorable BrowserURL="qbo.intuit.com/app/clients" ContentHash="eAXa9ZUjdUqAaGIFcVuYmQ" DesignTimeRectangle="1648, 476, 260, 36" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-label='Sign out' type='button' /&gt;" Guid="74726846-f749-42f2-9713-73d883de4b3b" InformativeScreenshot="7601a53ce4d35ca52245d32691a6b720.png" Reference="sSBR3gtlDUCEvkvULjr_tA/v0w0H3k25E-qHqA1HTIMow" ScopeSelectorArgument="&lt;html app='chrome.exe' title='QuickBooks' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete" />
+                        </uix:VerifyExecutionOptions.Target>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Signout'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="416,216.8" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="fcf12efd-0333-42b4-92c2-402c2fe2ee70" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="qbo.intuit.com/app/clients" ContentHash="eAXa9ZUjdUqAaGIFcVuYmQ" DesignTimeRectangle="1648, 476, 260, 36" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-label='Sign out' type='button' /&gt;" Guid="74726846-f749-42f2-9713-73d883de4b3b" InformativeScreenshot="7601a53ce4d35ca52245d32691a6b720.png" Reference="sSBR3gtlDUCEvkvULjr_tA/v0w0H3k25E-qHqA1HTIMow" ScopeSelectorArgument="&lt;html app='chrome.exe' title='QuickBooks' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete" />
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="Label 'Let's get you in to Qui…'" Mode="Appears" Retry="True">
+                        <uix:VerifyExecutionOptions.Target>
+                          <uix:TargetAnchorable BrowserURL="accounts.intuit.com/app/sign-in" CVScreenId="a610b700-6f73-442d-910b-e88c8afa898e" ContentHash="P-tFtrgjSUWXLVt-lxB1XQ" DesignTimeRectangle="798, 326, 340, 26" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Let&amp;apos;s get you in to QuickBooks' /&gt;" Guid="2ef6af88-1c1a-416c-b63d-3c919023737d" InformativeScreenshot="d7f46a4e0941b02e64fef9932091db4d.png" Reference="sSBR3gtlDUCEvkvULjr_tA/Qc5hipET0kmhTq0aa-fcTg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='QuickBooks Online Login*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                        </uix:VerifyExecutionOptions.Target>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </uix:NClick>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Profile button not found" sap:VirtualizedContainerService.HintSize="449.6,225.6" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:LogMessage DisplayName="Log Message - Bot unable to logout" sap:VirtualizedContainerService.HintSize="416,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Error" Message="[&quot;SE: Bot is unable to logout from QuickBooks by clicking Signout&quot;]" />
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="qbo.intuit.com/app/clients" CVScreenId="47c6b064-ce6c-4579-a6ef-6d52b5f2d8a3" ContentHash="iWpHI0f86k-mC_4fs7WQjw" DesignTimeRectangle="1888, 197, 24, 24" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentclass='oneIntuitAccountHeaderItem' /&gt;" Guid="8546c1aa-1b5b-4d6b-be8f-d0d656514972" InformativeScreenshot="cf4f4a3258ecaae10dc375f8eb1370ef.png" Reference="sSBR3gtlDUCEvkvULjr_tA/M28T7PvKmkGDv15k2DMOog" ScopeSelectorArgument="&lt;html app='chrome.exe' title='QuickBooks' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete" />
+              </uix:NCheckState.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NCheckState>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -1088, 1936, 1048" BrowserType="Chrome" ContentHash="wMfvQ3IxTU-SIH0xnu_usg" IconBase64="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" InformativeScreenshot="3c735a0415740877a093dff8eaac9aeb.jpg" Reference="sSBR3gtlDUCEvkvULjr_tA/tYPMV600o0elJL_Saz6PIg" Selector="&lt;html app='chrome.exe' title='QuickBooks' /&gt;" Url="[Config(&quot;QuickBooks_CompanyHomepageURL&quot;).ToString]" Version="V2" />
+      </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </uix:NApplicationCard>
+    <ui:LogMessage DisplayName="Log Message - Page Ended" sap:VirtualizedContainerService.HintSize="483.2,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Trace" Message="[strPageName+&quot; has Ended&quot;]" />
+  </Sequence>
+</Activity>

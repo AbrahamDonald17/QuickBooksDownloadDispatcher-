@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="MQMbokYCZkyotRIxpklFpw" Reference="sSBR3gtlDUCEvkvULjr_tA/tYN4SlEqvEa_O3dLtptdAQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="qbo.intuit.com/app/payroll/reports/payroll-summary" CVScreenId="59cfd58c-0e3f-4bf8-9ab3-b0cedca1f424" DesignTimeRectangle="444, 447, 160, 36" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-label='From' data-test-id='date-range-picker' /&gt;" Guid="2a729f9f-2b87-464f-9815-edceb87b80e9" ScopeSelectorArgument="&lt;html app='chrome.exe' title='QuickBooks' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="abbd5bf3a835bbe99b8e12bd98436d7c.png" xmlns="">0bRvVxElIc02FWNvNiZb8Jw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

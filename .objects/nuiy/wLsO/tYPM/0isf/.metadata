@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Cash flow",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "0isfholij0iEcYxXP98uWw",
+  "Reference": "sSBR3gtlDUCEvkvULjr_tA/0isfholij0iEcYxXP98uWw",
+  "ParentRef": "sSBR3gtlDUCEvkvULjr_tA/tYPMV600o0elJL_Saz6PIg",
+  "Created": "2025-11-19T08:48:15.1874617Z",
+  "Updated": "2025-11-19T08:49:27.0800497Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="sSGBRUo5sUOKoBTGPj-gdw" Reference="sSBR3gtlDUCEvkvULjr_tA/QWQiURdbwUGtd_4f7D-1cw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="qbo.intuit.com/app/payroll/reports/payroll-summary" DesignTimeRectangle="1799, 391, 109, 36" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Export' type='button' /&gt;" Guid="e0dd0a4b-5876-4a4d-8fa8-44abadadac61" ScopeSelectorArgument="&lt;html app='chrome.exe' title='QuickBooks' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="02d1e71c80aa5dd28990764ea2a53543.png" xmlns="">0FIibLLFay0-nbBeEwKt5sg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

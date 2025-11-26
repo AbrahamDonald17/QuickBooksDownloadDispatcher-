@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="y36Mjj2PTU-bQjH2JyVKPw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="accounts.intuit.com/app/sign-in" CVScreenId="83018646-9f46-4f54-968b-de053d2ee97e" DesignTimeRectangle="829, 447, 28, 28" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='ius-recaptcha' uipath-html-title='reCAPTCHA' /&gt;&lt;webctrl class='recaptcha-checkbox-border' /&gt;" Guid="70444d00-120f-49c7-b45b-3d5117e72d3a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='QuickBooks Online Login*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="798, 294, 340, 53" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='We need to make sure*' data-testid='RecaptchaHeader' /&gt;" Guid="cba5a5f0-d684-4f00-9e30-346e185e287d" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d78ca50a3324afc9230ee42508473ee4.png" xmlns="">0NdpSq1Iz_E6yJhJtxL33Qg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

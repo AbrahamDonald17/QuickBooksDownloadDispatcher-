@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Vuv-xZWtMEqzI2L9IcSYjQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="qbo.intuit.com/app/payroll/reports/payroll-summary" CVScreenId="c80960ca-c6f2-458a-b68e-89df8e1509d1" DesignTimeRectangle="260, 315, 123, 24" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='tabbedNavItemLabel' aaname='Standard reports' /&gt;" Guid="ba4c30f2-f0e4-4356-a428-f3cea75e253c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='QuickBooks' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c80960ca-c6f2-458a-b68e-89df8e1509d1" DesignTimeRectangle="416, 315, 114, 24" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Custom reports' class='tabbedNavItemLabel' /&gt;" Guid="bb7be595-0103-42c9-9e4d-6cec8470b296" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3f3b464aaf79ed8a238ef78752d90e23.png" xmlns="">0qkjB885f0kWL1OxIXitcDA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

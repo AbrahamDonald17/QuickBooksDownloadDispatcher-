@@ -1,0 +1,399 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Download_ReportSummary" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="Download_ReportSummary_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.CodeDom</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Download_ReportSummary" sap:VirtualizedContainerService.HintSize="945.2,3273.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Default="Download Report Summary" Name="strPageName" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:LogMessage DisplayName="Log Message - Page Started" sap:VirtualizedContainerService.HintSize="588.8,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Trace" Message="[strPageName+&quot; has started&quot;]" />
+    <TryCatch DisplayName="Try Catch - Downloading Report" sap:VirtualizedContainerService.HintSize="588.8,2910.4" sap2010:WorkflowViewState.IdRef="TryCatch_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <TryCatch.Try>
+        <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="587.2,2473.6" sap2010:WorkflowViewState.IdRef="Sequence_12">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:RetryScope ContinueOnError="False" DisplayName="Retry Scope - Downloading Report" sap:VirtualizedContainerService.HintSize="553.6,2413.6" sap2010:WorkflowViewState.IdRef="RetryScope_1" LogRetriedExceptions="True" RetriedExceptionsLogLevel="Error">
+            <ui:RetryScope.ActivityBody>
+              <ActivityAction>
+                <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="552,2216" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <TryCatch DisplayName="Try  - Downloading Report" sap:VirtualizedContainerService.HintSize="518.4,2156" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <TryCatch.Try>
+                      <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="516.8,1728" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Payroll Report" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="483.2,754.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" OpenMode="Never" ScopeGuid="687a8c5c-dca4-4b5d-a7f1-1c2ae75a006e" Version="V2">
+                          <uix:NApplicationCard.Body>
+                            <ActivityAction x:TypeArguments="x:Object">
+                              <ActivityAction.Argument>
+                                <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                              </ActivityAction.Argument>
+                              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,505.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Export'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="416,225.6" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="687a8c5c-dca4-4b5d-a7f1-1c2ae75a006e" Version="V5">
+                                  <uix:NClick.Target>
+                                    <uix:TargetAnchorable BrowserURL="qbo.intuit.com/app/payroll/reports/payroll-summary" ContentHash="sSGBRUo5sUOKoBTGPj-gdw" DesignTimeRectangle="1799, 391, 109, 36" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Export' type='button' /&gt;" Guid="e0dd0a4b-5876-4a4d-8fa8-44abadadac61" InformativeScreenshot="02d1e71c80aa5dd28990764ea2a53543.png" Reference="sSBR3gtlDUCEvkvULjr_tA/QWQiURdbwUGtd_4f7D-1cw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='QuickBooks' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete" />
+                                  </uix:NClick.Target>
+                                  <uix:NClick.VerifyOptions>
+                                    <uix:VerifyExecutionOptions DisplayName="Label 'Export to Excel'" Mode="Appears">
+                                      <uix:VerifyExecutionOptions.Retry>
+                                        <InArgument x:TypeArguments="x:Boolean" />
+                                      </uix:VerifyExecutionOptions.Retry>
+                                      <uix:VerifyExecutionOptions.Target>
+                                        <uix:TargetAnchorable BrowserURL="qbo.intuit.com/app/payroll/reports/payroll-summary" CVScreenId="1db672ff-6c63-4f47-bfb1-38021420f316" ContentHash="jfJ_cyZkN0aMUfHBKc6tlw" DesignTimeRectangle="1768, 440, 109, 24" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Export to Excel' innertext='Export to Excel' role='element' /&gt;" Guid="3ad876c6-df77-4ee8-ae39-7b4dfb005680" InformativeScreenshot="984b928fc7a4f20c6b25b885c9c4eaa3.png" Reference="sSBR3gtlDUCEvkvULjr_tA/DXOEjIZh_EePlvBQPgn5HA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='QuickBooks' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                                      </uix:VerifyExecutionOptions.Target>
+                                      <uix:VerifyExecutionOptions.Timeout>
+                                        <InArgument x:TypeArguments="x:Double" />
+                                      </uix:VerifyExecutionOptions.Timeout>
+                                    </uix:VerifyExecutionOptions>
+                                  </uix:NClick.VerifyOptions>
+                                </uix:NClick>
+                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Export to Excel'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="416,218.4" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="687a8c5c-dca4-4b5d-a7f1-1c2ae75a006e" Version="V5">
+                                  <uix:NClick.Target>
+                                    <uix:TargetAnchorable BrowserURL="qbo.intuit.com/app/payroll/reports/payroll-summary" CVScreenId="1db672ff-6c63-4f47-bfb1-38021420f316" ContentHash="jfJ_cyZkN0aMUfHBKc6tlw" DesignTimeRectangle="1768, 440, 109, 24" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Export to Excel' innertext='Export to Excel' role='element' /&gt;" Guid="3ad876c6-df77-4ee8-ae39-7b4dfb005680" InformativeScreenshot="984b928fc7a4f20c6b25b885c9c4eaa3.png" Reference="sSBR3gtlDUCEvkvULjr_tA/DXOEjIZh_EePlvBQPgn5HA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='QuickBooks' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                                  </uix:NClick.Target>
+                                  <uix:NClick.VerifyOptions>
+                                    <uix:VerifyExecutionOptions DisplayName="Input 'File Name'" Mode="Appears" Retry="True">
+                                      <uix:VerifyExecutionOptions.Target>
+                                        <uix:TargetAnchorable CVScreenId="f69c3185-adb5-43da-9b4c-fd82cb068e47" ContentHash="EkzXa2sNxU6vi81R80Rdlw" DesignTimeRectangle="136, 359, 599, 17" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='File name:' aastate='focusable' cls='Edit' /&gt;" Guid="e4c8f28a-4ebf-4ef4-9674-78186c1a2797" InformativeScreenshot="d197beff161c2d694ef8a9ba326b2a89.png" Reference="sSBR3gtlDUCEvkvULjr_tA/OL_NbzK5B0WF2xJeMZjI4Q" ScopeSelectorArgument="&lt;wnd app='chrome.exe' title='Save As' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                                      </uix:VerifyExecutionOptions.Target>
+                                      <uix:VerifyExecutionOptions.Timeout>
+                                        <InArgument x:TypeArguments="x:Double" />
+                                      </uix:VerifyExecutionOptions.Timeout>
+                                    </uix:VerifyExecutionOptions>
+                                  </uix:NClick.VerifyOptions>
+                                </uix:NClick>
+                              </Sequence>
+                            </ActivityAction>
+                          </uix:NApplicationCard.Body>
+                          <uix:NApplicationCard.TargetApp>
+                            <uix:TargetApp Area="-8, -1088, 1936, 1048" BrowserType="Chrome" ContentHash="k1Tsvtr9l0CRLwr5DWSxmw" IconBase64="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" InformativeScreenshot="7ba638c2059f507351f9ce34acaa6740.jpg" Reference="sSBR3gtlDUCEvkvULjr_tA/3dFi_V-_ZEu1Jepe8V2q-Q" Selector="&lt;html app='chrome.exe' title='QuickBooks' /&gt;" Url="[Config(&quot;QuickBooks_ReportDetailsURL&quot;).ToString]" Version="V2" />
+                          </uix:NApplicationCard.TargetApp>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </uix:NApplicationCard>
+                        <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Save As Popup" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="483.2,865.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="Simulate" OpenMode="Never" ScopeGuid="9922491e-fa5d-4833-b960-964f376b937a" Version="V2">
+                          <uix:NApplicationCard.Body>
+                            <ActivityAction x:TypeArguments="x:Object">
+                              <ActivityAction.Argument>
+                                <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                              </ActivityAction.Argument>
+                              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,566.4" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'File Name'" EmptyFieldMode="SingleLine" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="416,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="Simulate" ScopeIdentifier="9922491e-fa5d-4833-b960-964f376b937a" Text="[Config(&quot;QuickBooks_PayrollReport_Path&quot;).ToString.Replace(&quot;{Date}&quot;,Now.ToString(&quot;yyyy-MM-dd&quot;))+&quot;\&quot;+TransactionItem.SpecificContent(&quot;EIN&quot;).ToString+&quot;_&quot;+Now.ToString(&quot;yyyyMMdd_HHmmss&quot;)+Config(&quot;QuickBooks_PayrollReport_FileExtension&quot;).ToString]" Version="V5">
+                                  <uix:NTypeInto.Target>
+                                    <uix:TargetAnchorable CVScreenId="f69c3185-adb5-43da-9b4c-fd82cb068e47" ContentHash="EkzXa2sNxU6vi81R80Rdlw" DesignTimeRectangle="136, 359, 599, 17" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='File name:' aastate='focusable' cls='Edit' /&gt;" Guid="e4c8f28a-4ebf-4ef4-9674-78186c1a2797" InformativeScreenshot="d197beff161c2d694ef8a9ba326b2a89.png" Reference="sSBR3gtlDUCEvkvULjr_tA/OL_NbzK5B0WF2xJeMZjI4Q" ScopeSelectorArgument="&lt;wnd app='chrome.exe' title='Save As' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                                  </uix:NTypeInto.Target>
+                                  <uix:NTypeInto.VerifyOptions>
+                                    <uix:VerifyExecutionTypeIntoOptions DisplayName="FileName" Mode="Appears" Retry="True">
+                                      <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                        <InArgument x:TypeArguments="x:Double" />
+                                      </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                    </uix:VerifyExecutionTypeIntoOptions>
+                                  </uix:NTypeInto.VerifyOptions>
+                                </uix:NTypeInto>
+                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,218.4" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="9922491e-fa5d-4833-b960-964f376b937a" Version="V5">
+                                  <uix:NClick.Target>
+                                    <uix:TargetAnchorable CVScreenId="f69c3185-adb5-43da-9b4c-fd82cb068e47" ContentHash="EsDaMcIUJEWFFiMAd1ZgCQ" DesignTimeRectangle="551, 425, 88, 26" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='Save' cls='Button' /&gt;" Guid="69e5f05a-c29c-4a23-b034-e63805e1bf65" InformativeScreenshot="ab146a5ee1eef786869fecca2a270fea.png" Reference="sSBR3gtlDUCEvkvULjr_tA/58O2YXf9jUKjV64L2R_XUw" ScopeSelectorArgument="&lt;wnd app='chrome.exe' title='Save As' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                                  </uix:NClick.Target>
+                                  <uix:NClick.VerifyOptions>
+                                    <uix:VerifyExecutionOptions DisplayName="Button 'Cancel'" Mode="Disappears" Retry="True">
+                                      <uix:VerifyExecutionOptions.Target>
+                                        <uix:TargetAnchorable CVScreenId="f69c3185-adb5-43da-9b4c-fd82cb068e47" ContentHash="eOFGPwJprECKHHw77xXeMw" DesignTimeRectangle="651, 425, 88, 26" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='Cancel' cls='Button' /&gt;" Guid="5bf78313-6c59-4bdc-8e19-f822683a314b" InformativeScreenshot="8df91e5d0c6e752d134d1c319a7618c5.png" Reference="sSBR3gtlDUCEvkvULjr_tA/kSssDAyyWkq8RCSltnn2TQ" ScopeSelectorArgument="&lt;wnd app='chrome.exe' title='Save As' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                                      </uix:VerifyExecutionOptions.Target>
+                                      <uix:VerifyExecutionOptions.Timeout>
+                                        <InArgument x:TypeArguments="x:Double" />
+                                      </uix:VerifyExecutionOptions.Timeout>
+                                    </uix:VerifyExecutionOptions>
+                                  </uix:NClick.VerifyOptions>
+                                </uix:NClick>
+                              </Sequence>
+                            </ActivityAction>
+                          </uix:NApplicationCard.Body>
+                          <uix:NApplicationCard.TargetApp>
+                            <uix:TargetApp Area="0, -1080, 768, 480" ContentHash="vxBiLK8_vUiMf_XJ7KRU2g" FilePath="C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAUPSURBVDhPZdRrTFNnGAfwLhtUwcs27wxKGaVQbOk5xQyEtqeACEIdXonLZGYm6ifjshAzQUDnJolGQAEHlGtkxrBFZVsElJtcBbaBbjZxikppT0F6YS4bcM7ev0sL4mVP8svzfnif/5c37yMQvFZBXgu8HqpptZVRZVgZVZNVR49ZdSqM6VSEZVTDLKNqYBk66w+1QiTxEnq8Pj9f+/xWCOtpKdUaLjtmYeghK6MyWRmVg2XoaZahwTI0YRl6imVoJ8vQJpOG6m9WheRcpYIo1+yrYb4rPJvWBetHGdrAMvRdlqF5C0PDwlDEoqWIRePusGiUxMXsolZyZrXy7og6zNCokupdGfOB9XQQZdIqDRYN9cQ9rKFgdlPOUrsDYI4OIy6jLzFFKZ6MRIcZrlISyh0m9FnkcTlKlvOIURpHo8MwdxFmLQ1zogaW7ZswmroZll0pYFMTCLsjmrBbKWLZGkYsWxSE3aJwdWPLxqCcYH/hQoGiMll0+qC2vzc5nDfNBZqiFDAn6+DIy4Vz4GeY71vgHP8TU9Y+whlPEK4rjsy0U25cu5LMtCm5qVbloO2GPFpAfbsla0deoqk2bT0eaBQwqZXElKTFaGU1rv1gRHbtOPaWOLGv/CkyLo3hp57f4XhQQ/gBHeF6KcL3KJ4b4brlRwTKCymNERV659F0Bm3JNEzxkZjIzUFd3R0crJpEbK4TqiyHm/ZrJw5dmERj3138O3wSfN968N2hLoTvljm4blmjIKzmw4eKms3/bDsVT4r2RuL+tnjYe3pxqIxF5JdOUEcdc+xuupNOZNWN4e+JAXD9seC7gsF1BROuSzrNdUnHBPIq/bO1VUmENiSRAxkMOj5NISNmJ9JKJ6HItCEs0/4/aaV2sONmTPVvAN8pAdcZOE8gr0x+FlqRRELLk0jcmXhkn9xF7j9gsfu8HfIMG+QZdsgzXee5nmnHntJJTD51YmbAFRgArlM8TxBavmlcZkicDilPJMpvErCtcje59eg2Dl0cR/RXdsiO2OaFHrHhg+N2pNdaMGPrBN8XBb5DBL7DD3yH7xTX4TsskJUlNoWUJTiCyxJIcFkCImq240RXEc6138OBagfWHbch5IsJt6gTNuyvduD7jiHw99LdD8Ld9AHvtsbJ3fRpEISUbMyQlsSbpCXxkJZshKw0EZE1O5HfW4fTN4zYX8Pi4xIndhbbcPDiGMpvGnHntwpw3WvBtfuAa18Frm0l+PZVJr599VFBUL5OLSmKG5IUb+Al5zcQSbEbIqp2ILM1j3Q8+pWMOp+SQbMVnY9v47uBU7hybT24tuUvtC7jp5uX903+uMJP4LnKy8svM+JYYHGsMbA4jrgVxUFaHA/akELU1R+R2At7CFPzCfS1qci/HIXh6++Ba3t3Vus7LsbBiqXZIX5vvuX+zz6fh1MB53SGgMKYJwGFMeT9czFwCTgXQ2bpXB1pleGovyLGX81vg2tZ8twE37rUcOv8otnl4KolOl9Pn8Pr9OICnUF8VmcUF+h4cYEO4rOzAgoYElqoQeElCYYbloFrWQSuxZvnWryNXMvi8sFyb316queL9TUb6idc/RlNrzkcfkx0Rtvvn8eY/PMZpyhfOxVYoCH60nB01a+cmWle6OSaF5qmri8Y+sWw4HhPsTednip8dcG+XB4rvTxEuWqROF+X7Z/PNIrytMPys1Eou+SPxw2Lx7lmYRN3Q5hhrxeqg/3e8Hp9/j8R41x0l+Nz7QAAAABJRU5ErkJggg==" InformativeScreenshot="bfac976b538e23d762ad95b1efc09c5a.png" Reference="sSBR3gtlDUCEvkvULjr_tA/CLcAeSNMcUiQTznUhs7lTw" Selector="&lt;wnd app='chrome.exe' cls='#32770' title='Save As' /&gt;" Version="V2" />
+                          </uix:NApplicationCard.TargetApp>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </uix:NApplicationCard>
+                        <uix:NCheckState DisplayName="Check for Confirm Save As" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="483.2,48" sap2010:WorkflowViewState.IdRef="NCheckState_1" Version="V5">
+                          <uix:NCheckState.IfExists>
+                            <Sequence DisplayName="Confirm Save As appears" sap:VirtualizedContainerService.HintSize="449.6,282.4" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Confirm Save As" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="416,56.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" ScopeGuid="18a904f6-df68-44f3-9c91-2875a16a4926" Version="V2">
+                                <uix:NApplicationCard.Body>
+                                  <ActivityAction x:TypeArguments="x:Object">
+                                    <ActivityAction.Argument>
+                                      <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                                    </ActivityAction.Argument>
+                                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,278.4" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Yes'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,218.4" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="18a904f6-df68-44f3-9c91-2875a16a4926" Version="V5">
+                                        <uix:NClick.Target>
+                                          <uix:TargetAnchorable CVScreenId="2295f0f2-e843-426a-b7f4-7886631d0b55" ContentHash="LetjriiwfEWvbXKsS3ItZg" DesignTimeRectangle="206, 100, 68, 23" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='Yes' cls='Button' /&gt;" Guid="334e8419-6e44-437d-a32e-81a85214d3b8" InformativeScreenshot="c3566cecb951e21d6f1d5cb889f8a307.png" Reference="sSBR3gtlDUCEvkvULjr_tA/MRoDEvn3HUmTBbblBCUX_w" ScopeSelectorArgument="&lt;wnd app='chrome.exe' title='Confirm Save As' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                                        </uix:NClick.Target>
+                                        <uix:NClick.VerifyOptions>
+                                          <uix:VerifyExecutionOptions DisplayName="Button 'No'" Mode="Disappears" Retry="True">
+                                            <uix:VerifyExecutionOptions.Target>
+                                              <uix:TargetAnchorable CVScreenId="2295f0f2-e843-426a-b7f4-7886631d0b55" ContentHash="-XWvpcbtaUiN3lX9NPok1Q" DesignTimeRectangle="280, 100, 68, 23" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='No' cls='Button' /&gt;" Guid="df9a454b-387d-43e0-9f78-a56ee04aa7b0" InformativeScreenshot="ec172a1c0925013526ea7ad6f757e691.png" Reference="sSBR3gtlDUCEvkvULjr_tA/bWaNZM7if0C5lIIbPBilfg" ScopeSelectorArgument="&lt;wnd app='chrome.exe' title='Confirm Save As' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                                            </uix:VerifyExecutionOptions.Target>
+                                            <uix:VerifyExecutionOptions.Timeout>
+                                              <InArgument x:TypeArguments="x:Double" />
+                                            </uix:VerifyExecutionOptions.Timeout>
+                                          </uix:VerifyExecutionOptions>
+                                        </uix:NClick.VerifyOptions>
+                                      </uix:NClick>
+                                    </Sequence>
+                                  </ActivityAction>
+                                </uix:NApplicationCard.Body>
+                                <uix:NApplicationCard.TargetApp>
+                                  <uix:TargetApp Area="769, -665, 366, 140" ContentHash="Sgruo5TwZEuGw4e3wInLuw" FilePath="C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" IconBase64="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" InformativeScreenshot="8b436a7256bb498e87aa49330ae13aef.png" Reference="sSBR3gtlDUCEvkvULjr_tA/gNXnoUHDfkm6ozDJqYPllA" Selector="&lt;wnd app='chrome.exe' cls='#32770' title='Confirm Save As' /&gt;" Version="V2" />
+                                </uix:NApplicationCard.TargetApp>
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                              </uix:NApplicationCard>
+                              <ui:LogMessage DisplayName="Log Message - Confirm Save As appears" sap:VirtualizedContainerService.HintSize="416,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_3" Message="[&quot;Confirm Save As popup appeared and bot clicked Yes&quot;]" />
+                            </Sequence>
+                          </uix:NCheckState.IfExists>
+                          <uix:NCheckState.IfNotExists>
+                            <Sequence DisplayName="Confirm Save As does not appear" sap:VirtualizedContainerService.HintSize="449.6,89.6" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </Sequence>
+                          </uix:NCheckState.IfNotExists>
+                          <uix:NCheckState.Target>
+                            <uix:TargetAnchorable CVScreenId="2295f0f2-e843-426a-b7f4-7886631d0b55" ContentHash="LetjriiwfEWvbXKsS3ItZg" DesignTimeRectangle="206, 100, 68, 23" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='Yes' cls='Button' /&gt;" Guid="334e8419-6e44-437d-a32e-81a85214d3b8" InformativeScreenshot="c3566cecb951e21d6f1d5cb889f8a307.png" Reference="sSBR3gtlDUCEvkvULjr_tA/MRoDEvn3HUmTBbblBCUX_w" ScopeSelectorArgument="&lt;wnd app='chrome.exe' title='Confirm Save As' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                          </uix:NCheckState.Target>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </uix:NCheckState>
+                      </Sequence>
+                    </TryCatch.Try>
+                    <TryCatch.Catches>
+                      <Catch x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+                        <ActivityAction x:TypeArguments="s:Exception">
+                          <ActivityAction.Argument>
+                            <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                          </ActivityAction.Argument>
+                          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="516.8,173.6" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <Throw DisplayName="Throw SE: Issue downloading Report" Exception="[New SystemException(&quot;Bot is unable to download the report for the client ID:&quot;+TransactionItem.SpecificContent(&quot;Client ID&quot;).ToString)]" sap:VirtualizedContainerService.HintSize="483.2,113.6" sap2010:WorkflowViewState.IdRef="Throw_2" />
+                          </Sequence>
+                        </ActivityAction>
+                      </Catch>
+                    </TryCatch.Catches>
+                    <TryCatch.Finally>
+                      <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="516.8,89.6" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </Sequence>
+                    </TryCatch.Finally>
+                  </TryCatch>
+                </Sequence>
+              </ActivityAction>
+            </ui:RetryScope.ActivityBody>
+            <ui:RetryScope.Condition>
+              <ActivityFunc x:TypeArguments="x:Boolean" />
+            </ui:RetryScope.Condition>
+          </ui:RetryScope>
+        </Sequence>
+      </TryCatch.Try>
+      <TryCatch.Catches>
+        <Catch x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="Catch`1_2">
+          <ActivityAction x:TypeArguments="s:Exception">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="587.2,173.6" sap2010:WorkflowViewState.IdRef="Sequence_13">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <Throw DisplayName="Throw SE: Issue while downloading Report" Exception="[New SystemException(&quot;Bot is unable to download the report for the client ID:&quot;+TransactionItem.SpecificContent(&quot;Client ID&quot;).ToString)]" sap:VirtualizedContainerService.HintSize="553.6,113.6" sap2010:WorkflowViewState.IdRef="Throw_3" />
+            </Sequence>
+          </ActivityAction>
+        </Catch>
+      </TryCatch.Catches>
+      <TryCatch.Finally>
+        <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="484.8,89.6" sap2010:WorkflowViewState.IdRef="Sequence_14">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </Sequence>
+      </TryCatch.Finally>
+    </TryCatch>
+    <ui:LogMessage DisplayName="Log Message - Page Ended" sap:VirtualizedContainerService.HintSize="588.8,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Trace" Message="[strPageName+&quot; has Ended&quot;]" />
+  </Sequence>
+</Activity>

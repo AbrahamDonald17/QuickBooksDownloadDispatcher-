@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Sv4aodugikmSW0ANq6i3Qw" Reference="sSBR3gtlDUCEvkvULjr_tA/m7OM3ECm0UOoiCTcjxAXLA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="accounts.intuit.com/app/sign-in" CVScreenId="f8b4c8dd-3f58-4f56-8192-1939d6e8b053" DesignTimeRectangle="798, 507, 340, 36" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl type='submit' aaname='Sign in' /&gt;" Guid="ef839acf-4435-451b-b0dd-53b8f4c6466e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='QuickBooks Online Login*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="f8b4c8dd-3f58-4f56-8192-1939d6e8b053" DesignTimeRectangle="830, 463, 95, 23" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Remember me' /&gt;" Guid="b47ce048-dc22-4134-a6e3-3ad9b1f0844c" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b2c8b0a353dfe0a1d30370e27b7b2089.png" xmlns="">0-IS6__QxHkall8p10vzgIw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

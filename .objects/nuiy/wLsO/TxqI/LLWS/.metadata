@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Email or User ID",
+  "Type": "Element",
+  "TaxonomyType": "Tab",
+  "Id": "LLWSh2ykPESTDGL4bGe3KQ",
+  "Reference": "sSBR3gtlDUCEvkvULjr_tA/LLWSh2ykPESTDGL4bGe3KQ",
+  "ParentRef": "sSBR3gtlDUCEvkvULjr_tA/TxqIHkEJhkmnTSVl7GJ0DA",
+  "Created": "2025-11-21T08:43:10.9265894Z",
+  "Updated": "2025-11-21T08:45:32.8493426Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

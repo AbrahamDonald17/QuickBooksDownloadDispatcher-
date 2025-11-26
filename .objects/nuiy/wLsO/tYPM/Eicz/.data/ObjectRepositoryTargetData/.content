@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="49PCTI3OM0K2o0jPz3TKwg" Reference="sSBR3gtlDUCEvkvULjr_tA/Eiczgw50fE67pDRczg-NCg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="qbo.intuit.com/app/homepage" CVScreenId="c0c07d9b-7c30-4611-bb09-b8a2f3bf8a24" DesignTimeRectangle="358, 213, 314, 36" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl data-automation-id='companyName' /&gt;" Guid="d0cd59de-84c4-46dd-ad21-67d26dd9e4bb" ScopeSelectorArgument="&lt;html app='chrome.exe' title='QuickBooks' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c0c07d9b-7c30-4611-bb09-b8a2f3bf8a24" DesignTimeRectangle="441, 281, 56, 24" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Planner' class='tabbedNavItemLabel' /&gt;" Guid="7bdbd045-5f69-4d41-b99e-726cbe109eff" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="47026f3b9cadd88e5623d42c38fd077b.png" xmlns="">0h2_PnNPpn0OePVBRspymhg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

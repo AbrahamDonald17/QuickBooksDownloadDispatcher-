@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Export to Excel",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "DXOEjIZh_EePlvBQPgn5HA",
+  "Reference": "sSBR3gtlDUCEvkvULjr_tA/DXOEjIZh_EePlvBQPgn5HA",
+  "ParentRef": "sSBR3gtlDUCEvkvULjr_tA/3dFi_V-_ZEu1Jepe8V2q-Q",
+  "Created": "2025-11-19T10:31:41.9914691Z",
+  "Updated": "2025-11-19T10:33:00.0283472Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

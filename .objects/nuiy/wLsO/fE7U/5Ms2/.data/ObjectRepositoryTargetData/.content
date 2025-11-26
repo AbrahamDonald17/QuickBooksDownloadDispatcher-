@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fqTROlLv0U27-fOi61WRyA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="qbo.intuit.com/app/clients" CVScreenId="1c3aecd7-60c4-4063-9e2d-fa0d6987f3ec" DesignTimeRectangle="29, 145, 141, 28" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='QuickBooks Logo' parentid='Navigation' /&gt;" Guid="d7501b87-a5ca-4ee7-b750-20cd7e611f02" ScopeSelectorArgument="&lt;html app='chrome.exe' title='QuickBooks' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1c3aecd7-60c4-4063-9e2d-fa0d6987f3ec" DesignTimeRectangle="296, 150, 145, 17" ElementType="Text" FullSelectorArgument="&lt;webctrl class='client-switcher-title' aaname='GO TO QUICKBOOKS' /&gt;" Guid="5af6cc70-564e-4034-9eb0-fc355bdf5e89" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5dba20cf1d440d58b5ae492aea6c047d.png" xmlns="">0rrUETKlgW0-Yg58noS64gA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

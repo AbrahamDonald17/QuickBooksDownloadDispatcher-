@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Profile",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "M28T7PvKmkGDv15k2DMOog",
+  "Reference": "sSBR3gtlDUCEvkvULjr_tA/M28T7PvKmkGDv15k2DMOog",
+  "ParentRef": "sSBR3gtlDUCEvkvULjr_tA/fE7UevWPE0aEU_LCyCTKdg",
+  "Created": "2025-11-21T08:59:27.7264072Z",
+  "Updated": "2025-11-21T09:00:47.6821205Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

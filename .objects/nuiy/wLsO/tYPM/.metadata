@@ -1,0 +1,15 @@
+﻿{
+  "Name": "QuickBook Company",
+  "Type": "Screen",
+  "Id": "tYPMV600o0elJL_Saz6PIg",
+  "Reference": "sSBR3gtlDUCEvkvULjr_tA/tYPMV600o0elJL_Saz6PIg",
+  "ParentRef": "sSBR3gtlDUCEvkvULjr_tA/wLsOO5zy6U-2ZpMJhSGSaA",
+  "Created": "2025-11-19T08:47:25.1441094Z",
+  "Updated": "2025-11-19T08:47:43.820261Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="1uW80a_w5U2SGFhr7MWMtg" Reference="sSBR3gtlDUCEvkvULjr_tA/TxqIHkEJhkmnTSVl7GJ0DA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-8, -1088, 1936, 1048" BrowserType="Chrome" ContentHash="LEOGsWpgZU60KeUSwbsFhA" IconBase64="iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAMAAAANIilAAAAABGdBTUEAALGPC/xhBQAAAD9QTFRFP3//Mnb/LnP/I2z/Imz/HWj/Gmb/irH/vtP/vdP/j7T/HGj/FmT/////xdj/F2T/ts7/xtn/G2f/ha3/JGz/gkqDdwAAAIBJREFUSEvt18kOgCAMRdGiguA8/f+3mpiihICxsn1n2eam6xKp34iq+reKVDz6TiGWeYsbFs9vL7E2TMcbLx+b1rqL7frM8Xw8uJFNRhzPi48d4gfiEOIkxCHESYhDiJMQhwbr41Ueb/vCWi2Oj21mJl55+fgDxEKFcdFTVvIOnsiGOt18xVY3AAAAAElFTkSuQmCC" Reference="sSBR3gtlDUCEvkvULjr_tA/TxqIHkEJhkmnTSVl7GJ0DA" Selector="&lt;html app='chrome.exe' title='QuickBooks Online Login: Sign in to Access Your QuickBooks Account' /&gt;" Url="[Config(&quot;QuickBooks_LoginURL&quot;).ToString]" Version="V2">
+      <imageRef attrName="InformativeScreenshot" originalValue="da9147a0eab1b3d7efc339371132f6c0.jpg" xmlns="">0WnlyG8uJgEOUX-7nFC9x3w</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

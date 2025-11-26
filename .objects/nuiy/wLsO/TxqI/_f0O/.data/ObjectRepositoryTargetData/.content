@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="RwAqYRxXq0CSK6WzHndGmg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="accounts.intuit.com/app/sign-in" CVScreenId="25d21326-6918-498d-9a9e-c6e72e6dc390" DesignTimeRectangle="823, 641, 126, 21" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Enter password ' /&gt;" Guid="f262151d-ff22-42b9-b1c2-5e673d060cdb" ScopeSelectorArgument="&lt;html app='chrome.exe' title='QuickBooks Online Login: Sign in to Access Your QuickBooks Account' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="25d21326-6918-498d-9a9e-c6e72e6dc390" DesignTimeRectangle="747, 468, 425, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='challengePickerSubheader' tag='DIV' type='' class='IuxH2AndDescription__StyledDescription-j40avf-3 cFzGEl' aaname='Choose how you want to verify your identity.' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Choose how you want to verify your identity.' /&gt;" Guid="cf5e8e05-1d0e-4178-bacd-974f6952382c" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4bb9c37b9f6e0659fa0bc2f29d333084.png" xmlns="">0HrJRmqi4ikSNegYOl9JHXg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
