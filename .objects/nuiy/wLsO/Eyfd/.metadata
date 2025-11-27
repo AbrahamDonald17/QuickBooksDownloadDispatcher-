@@ -1,0 +1,15 @@
+﻿{
+  "Name": "MFA Authentication",
+  "Type": "Screen",
+  "Id": "EyfdBEw8zkSTqSroFeQSSw",
+  "Reference": "sSBR3gtlDUCEvkvULjr_tA/EyfdBEw8zkSTqSroFeQSSw",
+  "ParentRef": "sSBR3gtlDUCEvkvULjr_tA/wLsOO5zy6U-2ZpMJhSGSaA",
+  "Created": "2025-11-27T09:07:40.0971812Z",
+  "Updated": "2025-11-27T09:08:40.4025939Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

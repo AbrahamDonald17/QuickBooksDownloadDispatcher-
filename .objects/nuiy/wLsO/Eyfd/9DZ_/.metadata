@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Authenticator App",
+  "Description": "Identify the Authenticator App",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "9DZ_CyAFgkagCpch6IWgeg",
+  "Reference": "sSBR3gtlDUCEvkvULjr_tA/9DZ_CyAFgkagCpch6IWgeg",
+  "ParentRef": "sSBR3gtlDUCEvkvULjr_tA/EyfdBEw8zkSTqSroFeQSSw",
+  "Created": "2025-11-27T09:13:04.6697596Z",
+  "Updated": "2025-11-27T09:16:04.1698258Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="yjtOi_5lyEeHnfint6gu6w" Reference="sSBR3gtlDUCEvkvULjr_tA/m_f7HPgCV0Sqm8S_wqwuVw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="94422337-6b5b-4f52-aa44-59e6b9d6952a" DesignTimeRectangle="288, 290, 251, 40" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Cancel' role='push button' /&gt;" Guid="7a2305cc-a6cf-4455-a967-245ed501c6a7" ScopeSelectorArgument="&lt;wnd app='credentialuibroker.exe' cls='Credential Dialog Xaml Host' title='Windows Security' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="9d1efd050a180337a3ff9bd78e24e196.png" xmlns="">0cFlhyq5Fa0md3f2ephZlxw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
