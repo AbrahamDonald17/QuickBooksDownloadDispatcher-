@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="4ntNKtYgTk-Ys6Gp9Quy3w" Reference="sSBR3gtlDUCEvkvULjr_tA/TV_RP43mKEKwxUqZT4ccGg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="qbo.intuit.com/app/payroll" CVScreenId="e1008a46-8fda-40a2-97a2-17f281d14691" CvElementArea="1373, 243, 43, 41" CvType="CloseButton" DesignTimeRectangle="1380, 250, 30, 30" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-label='Close' tag='BUTTON' /&gt;" Guid="b6748e30-928b-45ae-af8a-7eed2fc39163" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Payroll overview' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Interactive]">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="e1008a46-8fda-40a2-97a2-17f281d14691" CvTextArea="537, 430, 542, 41" CvTextArgument="QuickBooks Payroll Core" CvType="Text" DesignTimeRectangle="539, 429, 539, 42" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='QuickBooks Payroll Core' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='QuickBooks Payroll Core' /&gt;" Guid="fb03f6a1-b4c6-48c7-a1ff-23175cd5c903" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1a7474b71e97b9dc5e35e680073c465b.png" xmlns="">0ax-_51yQIkWriTnnF6feeA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Take a Tour PopUP",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "TV_RP43mKEKwxUqZT4ccGg",
+  "Reference": "sSBR3gtlDUCEvkvULjr_tA/TV_RP43mKEKwxUqZT4ccGg",
+  "ParentRef": "sSBR3gtlDUCEvkvULjr_tA/QUAucMZObUev1lxKFPI7uQ",
+  "Created": "2025-11-28T07:56:53.2100542Z",
+  "Updated": "2025-11-28T07:58:10.1683019Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rAcl2pcaMEayLk_5sJsnrA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="qbo.intuit.com/app/homepage" CVScreenId="55d25995-c552-43a3-b73c-e4878c30995f" DesignTimeRectangle="1508, 249, 51, 23" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname='Help' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Help' /&gt;" Guid="3f63a7b5-1ec3-4500-b4b8-5f97d403dbf4" ScopeSelectorArgument="&lt;html app='chrome.exe' title='QuickBooks' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="55d25995-c552-43a3-b73c-e4878c30995f" DesignTimeRectangle="1478, 245, 30, 30" FullSelectorArgument="&lt;webctrl tag='I' /&gt;" Guid="6c43edcb-7a3c-4ed4-a0b2-b329dfc09a92" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b74bebe4f3ef1e0ec71fe91423151fce.png" xmlns="">0BLB7rZGmfkiJ87L7a8j2lQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

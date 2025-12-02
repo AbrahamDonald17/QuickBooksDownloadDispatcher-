@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Help",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "F8FIkoF4I0WyxbzN7fxPTg",
+  "Reference": "sSBR3gtlDUCEvkvULjr_tA/F8FIkoF4I0WyxbzN7fxPTg",
+  "ParentRef": "sSBR3gtlDUCEvkvULjr_tA/tYPMV600o0elJL_Saz6PIg",
+  "Created": "2025-11-28T17:39:53.6238083Z",
+  "Updated": "2025-11-28T17:42:57.8165774Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

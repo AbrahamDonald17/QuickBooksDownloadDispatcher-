@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Payroll Homescreen",
+  "Type": "Screen",
+  "Id": "QUAucMZObUev1lxKFPI7uQ",
+  "Reference": "sSBR3gtlDUCEvkvULjr_tA/QUAucMZObUev1lxKFPI7uQ",
+  "ParentRef": "sSBR3gtlDUCEvkvULjr_tA/wLsOO5zy6U-2ZpMJhSGSaA",
+  "Created": "2025-11-28T07:45:41.4122228Z",
+  "Updated": "2025-11-28T07:46:20.175684Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

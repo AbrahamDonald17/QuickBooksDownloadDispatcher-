@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Switch_CompanyBaseURL" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="Switch_CompanyBaseURL_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Switch_CompanyBaseURL" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="Switch_CompanyBaseURL_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -100,9 +100,10 @@
       <AssemblyReference>System.Threading.AccessControl</AssemblyReference>
       <AssemblyReference>System.Threading</AssemblyReference>
       <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Switch_CompanyBaseURL" sap:VirtualizedContainerService.HintSize="945.2,3850.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Switch_CompanyBaseURL" sap:VirtualizedContainerService.HintSize="801.2,4984" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Default="Switch Company Profile URL" Name="strPageName" />
       <Variable x:TypeArguments="x:Boolean" Name="boolNavigated" />
@@ -112,8 +113,8 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:LogMessage DisplayName="Log Message - Page Started" sap:VirtualizedContainerService.HintSize="624,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Trace" Message="[strPageName+&quot; has started&quot;]" />
-    <TryCatch DisplayName="Try Catch - Navigation to company ID" sap:VirtualizedContainerService.HintSize="624,3312.8" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+    <ui:LogMessage DisplayName="Log Message - Page Started" sap:VirtualizedContainerService.HintSize="632,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Trace" Message="[strPageName+&quot; has started&quot;]" />
+    <TryCatch DisplayName="Try Catch - Navigation to company ID" sap:VirtualizedContainerService.HintSize="632,4446.4" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -121,43 +122,104 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <TryCatch.Try>
-        <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="622.4,2488.8" sap2010:WorkflowViewState.IdRef="Sequence_6">
+        <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="630.4,3620.8" sap2010:WorkflowViewState.IdRef="Sequence_6">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:RetryScope LogRetriedExceptions="{x:Null}" RetriedExceptionsLogLevel="{x:Null}" DisplayName="Retry Scope - Navigation to company ID" sap:VirtualizedContainerService.HintSize="588.8,2428.8" sap2010:WorkflowViewState.IdRef="RetryScope_1">
+          <ui:RetryScope LogRetriedExceptions="{x:Null}" RetriedExceptionsLogLevel="{x:Null}" DisplayName="Retry Scope - Navigation to company ID" sap:VirtualizedContainerService.HintSize="596.8,3560.8" sap2010:WorkflowViewState.IdRef="RetryScope_1" NumberOfRetries="1">
             <ui:RetryScope.ActivityBody>
               <ActivityAction>
-                <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="587.2,2118.4" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="590.4,3250.4" sap2010:WorkflowViewState.IdRef="Sequence_5">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="QuickBooks Accountant" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="553.6,2058.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" OpenMode="Never" ScopeGuid="77ed0306-e85e-4b1a-a9db-0e355f4e9b34" Version="V2">
+                  <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="QuickBooks Accountant" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="556.8,3190.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" OpenMode="Never" ScopeGuid="77ed0306-e85e-4b1a-a9db-0e355f4e9b34" Version="V2">
                     <uix:NApplicationCard.Body>
                       <ActivityAction x:TypeArguments="x:Object">
                         <ActivityAction.Argument>
                           <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                         </ActivityAction.Argument>
-                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="520,1818.4" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="555.2,2996.8" sap2010:WorkflowViewState.IdRef="Sequence_2">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <uix:NGoToUrl sap2010:Annotation.AnnotationText="Bot Navigates to the Switch Company URL. The URL is fetched from the Config file." ContinueOnError="False" DisplayName="Switch Company using Client ID" sap:VirtualizedContainerService.HintSize="486.4,167.2" sap2010:WorkflowViewState.IdRef="NGoToUrl_1" ScopeIdentifier="77ed0306-e85e-4b1a-a9db-0e355f4e9b34" Url="[Config(&quot;QuickBooks_SwitchCompanyURL&quot;).ToString+TransactionItem.SpecificContent(&quot;Client ID&quot;).ToString.Trim]" Version="V5">
+                          <ui:CommentOut sap2010:Annotation.AnnotationText="Commenting the Tour PopUp Logic as it will not impact Bot flow" DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="521.6,101.6" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+                            <ui:CommentOut.Body>
+                              <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="449.6,24.8" sap2010:WorkflowViewState.IdRef="Sequence_21">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <uix:NCheckState DisplayName="Check App State 'Take a Tour PopUP'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="451.2,968" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="77ed0306-e85e-4b1a-a9db-0e355f4e9b34" Timeout="[CInt(Config(&quot;LongWait&quot;)) * 2]" Version="V5">
+                                  <uix:NCheckState.IfExists>
+                                    <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,593.6" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_10" Level="Info" Message="[&quot;QuickBooks Payroll care Tour PopUp appeared&quot;]" />
+                                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Take a Tour PopUP'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,193.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="77ed0306-e85e-4b1a-a9db-0e355f4e9b34" Version="V5">
+                                        <uix:NClick.Target>
+                                          <uix:TargetAnchorable BrowserURL="qbo.intuit.com/app/payroll" CVScreenId="e1008a46-8fda-40a2-97a2-17f281d14691" ContentHash="4ntNKtYgTk-Ys6Gp9Quy3w" CvElementArea="1373, 243, 43, 41" CvType="CloseButton" DesignTimeRectangle="1380, 250, 30, 30" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-label='Close' tag='BUTTON' /&gt;" Guid="b6748e30-928b-45ae-af8a-7eed2fc39163" InformativeScreenshot="1a7474b71e97b9dc5e35e680073c465b.png" Reference="sSBR3gtlDUCEvkvULjr_tA/TV_RP43mKEKwxUqZT4ccGg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Payroll overview' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+                                            <uix:TargetAnchorable.Anchors>
+                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                <uix:Target CVScreenId="e1008a46-8fda-40a2-97a2-17f281d14691" CvTextArea="537, 430, 542, 41" CvTextArgument="QuickBooks Payroll Core" CvType="Text" DesignTimeRectangle="539, 429, 539, 42" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='QuickBooks Payroll Core' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='QuickBooks Payroll Core' /&gt;" Guid="fb03f6a1-b4c6-48c7-a1ff-23175cd5c903" SearchSteps="FuzzySelector, CV" />
+                                              </scg:List>
+                                            </uix:TargetAnchorable.Anchors>
+                                          </uix:TargetAnchorable>
+                                        </uix:NClick.Target>
+                                      </uix:NClick>
+                                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_11" Level="Info" Message="[&quot;QuickBooks Payroll care Tour PopUp closed by Bot&quot;]" />
+                                    </Sequence>
+                                  </uix:NCheckState.IfExists>
+                                  <uix:NCheckState.IfNotExists>
+                                    <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="449.6,89.6" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                    </Sequence>
+                                  </uix:NCheckState.IfNotExists>
+                                  <uix:NCheckState.Target>
+                                    <uix:TargetAnchorable BrowserURL="qbo.intuit.com/app/payroll" CVScreenId="e1008a46-8fda-40a2-97a2-17f281d14691" ContentHash="4ntNKtYgTk-Ys6Gp9Quy3w" CvElementArea="1373, 243, 43, 41" CvType="CloseButton" DesignTimeRectangle="1380, 250, 30, 30" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-label='Close' tag='BUTTON' /&gt;" Guid="b6748e30-928b-45ae-af8a-7eed2fc39163" InformativeScreenshot="1a7474b71e97b9dc5e35e680073c465b.png" Reference="sSBR3gtlDUCEvkvULjr_tA/TV_RP43mKEKwxUqZT4ccGg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Payroll overview' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Interactive]">
+                                      <uix:TargetAnchorable.Anchors>
+                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                          <uix:Target CVScreenId="e1008a46-8fda-40a2-97a2-17f281d14691" CvTextArea="537, 430, 542, 41" CvTextArgument="QuickBooks Payroll Core" CvType="Text" DesignTimeRectangle="539, 429, 539, 42" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='QuickBooks Payroll Core' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='QuickBooks Payroll Core' /&gt;" Guid="fb03f6a1-b4c6-48c7-a1ff-23175cd5c903" SearchSteps="FuzzySelector, CV" />
+                                        </scg:List>
+                                      </uix:TargetAnchorable.Anchors>
+                                    </uix:TargetAnchorable>
+                                  </uix:NCheckState.Target>
+                                </uix:NCheckState>
+                              </Sequence>
+                            </ui:CommentOut.Body>
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </ui:CommentOut>
+                          <uix:NGoToUrl sap2010:Annotation.AnnotationText="Bot Navigates to the Switch Company URL. The URL is fetched from the Config file." ContinueOnError="False" DisplayName="Switch Company using Client ID" sap:VirtualizedContainerService.HintSize="521.6,167.2" sap2010:WorkflowViewState.IdRef="NGoToUrl_1" ScopeIdentifier="77ed0306-e85e-4b1a-a9db-0e355f4e9b34" Url="[Config(&quot;QuickBooks_SwitchCompanyURL&quot;).ToString+TransactionItem.SpecificContent(&quot;Client ID&quot;).ToString.Trim]" Version="V5">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
                           </uix:NGoToUrl>
-                          <uix:NCheckState sap2010:Annotation.AnnotationText="Checks if the Switching has returned any error." DisplayName="Check App State 'Error Message'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="486.4,1589.6" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="77ed0306-e85e-4b1a-a9db-0e355f4e9b34" Timeout="[CInt(Config(&quot;LongWait&quot;))]" Version="V5">
+                          <uix:NCheckState sap2010:Annotation.AnnotationText="Checks if the Switching has returned any error." DisplayName="Check App State 'Error Message'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="521.6,2668" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="77ed0306-e85e-4b1a-a9db-0e355f4e9b34" Timeout="[CInt(Config(&quot;LongWait&quot;))]" Version="V5">
                             <uix:NCheckState.IfExists>
-                              <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="484.8,385.6" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                              <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="520,385.6" sap2010:WorkflowViewState.IdRef="Sequence_9">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -180,15 +242,15 @@
                               </Sequence>
                             </uix:NCheckState.IfExists>
                             <uix:NCheckState.IfNotExists>
-                              <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="484.8,916" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                              <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="520,1966.4" sap2010:WorkflowViewState.IdRef="Sequence_10">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <uix:NCheckState sap2010:Annotation.AnnotationText="In case of No error, the bot checks for &quot;My Exports&quot; element in the Switched URL to ensure the page has been loaded." DisplayName="Check if URL Navigation successful" Exists="[boolNavigated]" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="451.2,856" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="77ed0306-e85e-4b1a-a9db-0e355f4e9b34" Timeout="[CInt(Config(&quot;XXLWait&quot;))]" Version="V5">
+                                <uix:NCheckState sap2010:Annotation.AnnotationText="In case of No error, the bot checks for &quot;My Exports&quot; element in the Switched URL to ensure the page has been loaded." DisplayName="Check if URL Navigation successful" Exists="[boolNavigated]" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="486.4,891.2" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="77ed0306-e85e-4b1a-a9db-0e355f4e9b34" Timeout="[CInt(Config(&quot;XXLWait&quot;))]" Version="V5">
                                   <uix:NCheckState.IfExists>
-                                    <Sequence DisplayName="URL Navigation successful" sap:VirtualizedContainerService.HintSize="449.6,328.8" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                                    <Sequence DisplayName="URL Navigation successful" sap:VirtualizedContainerService.HintSize="449.6,327.2" sap2010:WorkflowViewState.IdRef="Sequence_3">
                                       <Sequence.Variables>
                                         <Variable x:TypeArguments="x:String" Name="strFetchedCompanyName" />
                                       </Sequence.Variables>
@@ -240,17 +302,17 @@
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
                                       </ui:CommentOut>
-                                      <ui:LogMessage DisplayName="Log Message - Fetched Company Name" sap:VirtualizedContainerService.HintSize="416,167.2" sap2010:WorkflowViewState.IdRef="LogMessage_8" Message="[&quot;Company Name after Navigation is: &quot;+strFetchedCompanyName]" />
+                                      <ui:LogMessage DisplayName="Log Message - Fetched Company Name" sap:VirtualizedContainerService.HintSize="416,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_8" Message="[&quot;Company Name after Navigation is: &quot;+strFetchedCompanyName]" />
                                     </Sequence>
                                   </uix:NCheckState.IfExists>
                                   <uix:NCheckState.IfNotExists>
-                                    <Sequence DisplayName="URL Navigation unsuccessful" sap:VirtualizedContainerService.HintSize="449.6,227.2" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                                    <Sequence DisplayName="URL Navigation unsuccessful" sap:VirtualizedContainerService.HintSize="449.6,225.6" sap2010:WorkflowViewState.IdRef="Sequence_4">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
-                                      <ui:LogMessage DisplayName="Log Message - Navigation failed" sap:VirtualizedContainerService.HintSize="416,167.2" sap2010:WorkflowViewState.IdRef="LogMessage_4" Message="[&quot;Navigation failed to company id: &quot;+TransactionItem.SpecificContent(&quot;Client ID&quot;).ToString]" />
+                                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_13" Level="Info" Message="[&quot;Primary Selector unavailable. Check for secondary selector&quot;]" />
                                     </Sequence>
                                   </uix:NCheckState.IfNotExists>
                                   <uix:NCheckState.Target>
@@ -264,6 +326,51 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </uix:NCheckState>
+                                <If Condition="[boolNavigated]" sap:VirtualizedContainerService.HintSize="486.4,1015.2" sap2010:WorkflowViewState.IdRef="If_1">
+                                  <If.Then>
+                                    <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="484.8,89.6" sap2010:WorkflowViewState.IdRef="Sequence_19">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                    </Sequence>
+                                  </If.Then>
+                                  <If.Else>
+                                    <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="484.8,796" sap2010:WorkflowViewState.IdRef="Sequence_20">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                      <uix:NCheckState DisplayName="Check App State 'Help'" Exists="[boolNavigated]" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="451.2,736" sap2010:WorkflowViewState.IdRef="NCheckState_5" ScopeIdentifier="77ed0306-e85e-4b1a-a9db-0e355f4e9b34" Version="V5">
+                                        <uix:NCheckState.IfExists>
+                                          <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,225.6" sap2010:WorkflowViewState.IdRef="Sequence_17">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                            <ui:LogMessage DisplayName="Log Message - Fetched Company Name" sap:VirtualizedContainerService.HintSize="416,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_14" Message="[&quot;Company Page loaded as secondary selector available&quot;]" />
+                                          </Sequence>
+                                        </uix:NCheckState.IfExists>
+                                        <uix:NCheckState.IfNotExists>
+                                          <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="449.6,225.6" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                            <ui:LogMessage DisplayName="Log Message - Navigation failed" sap:VirtualizedContainerService.HintSize="416,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_15" Message="[&quot;Navigation failed to company id: &quot;+TransactionItem.SpecificContent(&quot;Client ID&quot;).ToString]" />
+                                          </Sequence>
+                                        </uix:NCheckState.IfNotExists>
+                                        <uix:NCheckState.Target>
+                                          <uix:TargetAnchorable BrowserURL="qbo.intuit.com/app/clients" CVScreenId="47c6b064-ce6c-4579-a6ef-6d52b5f2d8a3" ContentHash="iWpHI0f86k-mC_4fs7WQjw" DesignTimeRectangle="1888, 197, 24, 24" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentclass='oneIntuitAccountHeaderItem' /&gt;" Guid="8546c1aa-1b5b-4d6b-be8f-d0d656514972" InformativeScreenshot="cf4f4a3258ecaae10dc375f8eb1370ef.png" Reference="sSBR3gtlDUCEvkvULjr_tA/M28T7PvKmkGDv15k2DMOog" ScopeSelectorArgument="&lt;html app='chrome.exe' title='QuickBooks' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete" />
+                                        </uix:NCheckState.Target>
+                                      </uix:NCheckState>
+                                    </Sequence>
+                                  </If.Else>
+                                </If>
                               </Sequence>
                             </uix:NCheckState.IfNotExists>
                             <uix:NCheckState.Target>
@@ -280,8 +387,22 @@
                         </Sequence>
                       </ActivityAction>
                     </uix:NApplicationCard.Body>
+                    <uix:NApplicationCard.OCREngine>
+                      <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+                        <ActivityFunc.Argument>
+                          <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+                        </ActivityFunc.Argument>
+                      </ActivityFunc>
+                    </uix:NApplicationCard.OCREngine>
                     <uix:NApplicationCard.TargetApp>
-                      <uix:TargetApp Area="-8, -1088, 1936, 1048" BrowserType="Chrome" ContentHash="RaYMhyEWNkWDH1FVqeZJMQ" IconBase64="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" sap2010:WorkflowViewState.IdRef="TargetApp_1" InformativeScreenshot="da39c6a68f6229e23070b4446cf99829.jpg" Reference="sSBR3gtlDUCEvkvULjr_tA/fE7UevWPE0aEU_LCyCTKdg" Selector="&lt;html app='chrome.exe' title='QuickBooks' /&gt;" Url="[Config(&quot;QuickBooks_LoginURL&quot;).ToString+&quot;*&quot;]" Version="V2" />
+                      <uix:TargetApp Area="-8, -1088, 1936, 1048" BrowserType="Chrome" ContentHash="RaYMhyEWNkWDH1FVqeZJMQ" IconBase64="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" sap2010:WorkflowViewState.IdRef="TargetApp_1" InformativeScreenshot="da39c6a68f6229e23070b4446cf99829.jpg" Reference="sSBR3gtlDUCEvkvULjr_tA/fE7UevWPE0aEU_LCyCTKdg" Selector="&lt;html app='chrome.exe' title='QuickBooks' /&gt;" Url="[Config(&quot;QuickBooks_LoginURL&quot;).ToString+&quot;*&quot;]" Version="V2">
+                        <uix:TargetApp.Arguments>
+                          <InArgument x:TypeArguments="x:String" />
+                        </uix:TargetApp.Arguments>
+                        <uix:TargetApp.WorkingDirectory>
+                          <InArgument x:TypeArguments="x:String" />
+                        </uix:TargetApp.WorkingDirectory>
+                      </uix:TargetApp>
                     </uix:NApplicationCard.TargetApp>
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -295,7 +416,7 @@
             </ui:RetryScope.ActivityBody>
             <ui:RetryScope.Condition>
               <ActivityFunc x:TypeArguments="x:Boolean">
-                <ui:CheckTrue ErrorMessage="{x:Null}" sap2010:Annotation.AnnotationText="Check state that decides if the retry is required." DisplayName="Check True - Navigated" Expression="[boolNavigated]" sap:VirtualizedContainerService.HintSize="563.2,162.4" sap2010:WorkflowViewState.IdRef="CheckTrue_1">
+                <ui:CheckTrue ErrorMessage="{x:Null}" sap2010:Annotation.AnnotationText="Check state that decides if the retry is required." DisplayName="Check True - Navigated" Expression="[boolNavigated]" sap:VirtualizedContainerService.HintSize="566.4,162.4" sap2010:WorkflowViewState.IdRef="CheckTrue_1">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
@@ -319,14 +440,14 @@
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="622.4,348" sap2010:WorkflowViewState.IdRef="Sequence_7">
+            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="630.4,348.8" sap2010:WorkflowViewState.IdRef="Sequence_7">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ui:LogMessage DisplayName="Log Message - Navigation to company failed" sap:VirtualizedContainerService.HintSize="588.8,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Error" Message="[&quot;Navigation to company ID :&quot;+TransactionItem.SpecificContent(&quot;Client ID&quot;).ToString+&quot;failed after retries&quot;]" />
-              <Throw DisplayName="Throw SE: Navigation failed" Exception="[New SystemException(&quot;Navigation to company ID: &quot;+TransactionItem.SpecificContent(&quot;Client ID&quot;).ToString+&quot; failed. Bot unable to proceed&quot;)]" sap:VirtualizedContainerService.HintSize="588.8,113.6" sap2010:WorkflowViewState.IdRef="Throw_1" />
+              <ui:LogMessage DisplayName="Log Message - Navigation to company failed" sap:VirtualizedContainerService.HintSize="596,175" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Error" Message="[&quot;Navigation to company ID :&quot;+TransactionItem.SpecificContent(&quot;Client ID&quot;).ToString+&quot;failed after retries&quot;]" />
+              <Throw DisplayName="Throw SE: Navigation failed" Exception="[New SystemException(&quot;Navigation to company ID: &quot;+TransactionItem.SpecificContent(&quot;Client ID&quot;).ToString+&quot; failed. Bot unable to proceed&quot;)]" sap:VirtualizedContainerService.HintSize="596,114" sap2010:WorkflowViewState.IdRef="Throw_1" />
             </Sequence>
           </ActivityAction>
         </Catch>
@@ -335,19 +456,19 @@
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="ui:BusinessRuleException" Name="exception" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="622.4,173.6" sap2010:WorkflowViewState.IdRef="Sequence_11">
+            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="630,174" sap2010:WorkflowViewState.IdRef="Sequence_11">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <Throw DisplayName="Throw BE: Company ID not loaded" Exception="[New BusinessRuleException(&quot;Site has not loaded and was throwing an error message for Company ID: &quot;+TransactionItem.SpecificContent(&quot;Client ID&quot;).ToString)]" sap:VirtualizedContainerService.HintSize="588.8,113.6" sap2010:WorkflowViewState.IdRef="Throw_3" />
+              <Throw DisplayName="Throw BE: Company ID not loaded" Exception="[New BusinessRuleException(&quot;Site has not loaded and was throwing an error message for Company ID: &quot;+TransactionItem.SpecificContent(&quot;Client ID&quot;).ToString)]" sap:VirtualizedContainerService.HintSize="596,114" sap2010:WorkflowViewState.IdRef="Throw_3" />
             </Sequence>
           </ActivityAction>
         </Catch>
       </TryCatch.Catches>
       <TryCatch.Finally>
-        <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="622.4,89.6" sap2010:WorkflowViewState.IdRef="Sequence_8">
+        <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="630,90" sap2010:WorkflowViewState.IdRef="Sequence_8">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -356,7 +477,7 @@
         </Sequence>
       </TryCatch.Finally>
     </TryCatch>
-    <ui:LogMessage DisplayName="Log Message - Navigation success" sap:VirtualizedContainerService.HintSize="624,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_9" Message="[&quot;Navigated to company id: &quot;+TransactionItem.SpecificContent(&quot;Client ID&quot;).ToString]" />
-    <ui:LogMessage DisplayName="Log Message - Page Ended" sap:VirtualizedContainerService.HintSize="624,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Trace" Message="[strPageName+&quot; has Ended&quot;]" />
+    <ui:LogMessage DisplayName="Log Message - Navigation success" sap:VirtualizedContainerService.HintSize="632,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_9" Message="[&quot;Navigated to company id: &quot;+TransactionItem.SpecificContent(&quot;Client ID&quot;).ToString]" />
+    <ui:LogMessage DisplayName="Log Message - Page Ended" sap:VirtualizedContainerService.HintSize="632,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Trace" Message="[strPageName+&quot; has Ended&quot;]" />
   </Sequence>
 </Activity>

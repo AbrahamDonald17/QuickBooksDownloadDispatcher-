@@ -89,11 +89,7 @@
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="Handle_WindowsSecurity" sap:VirtualizedContainerService.HintSize="1187,1474" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
-      <Variable x:TypeArguments="x:String" Name="strPageName">
-        <Variable.Default>
-          <Literal x:TypeArguments="x:String">Windows Security PopUp</Literal>
-        </Variable.Default>
-      </Variable>
+      <Variable x:TypeArguments="x:String" Default="Windows Security PopUp" Name="strPageName" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -122,7 +118,7 @@
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                   <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Windows Security PopUp appeared&quot;]" />
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Cancel Button'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d53490d3-1d43-4e92-bb9f-22c5841d3605" Version="V5">
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Cancel Button'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d53490d3-1d43-4e92-bb9f-22c5841d3605" Version="V5">
                     <uix:NClick.Target>
                       <uix:TargetAnchorable CVScreenId="94422337-6b5b-4f52-aa44-59e6b9d6952a" ContentHash="yjtOi_5lyEeHnfint6gu6w" DesignTimeRectangle="288, 290, 251, 40" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Cancel' role='push button' /&gt;" Guid="7a2305cc-a6cf-4455-a967-245ed501c6a7" InformativeScreenshot="9d1efd050a180337a3ff9bd78e24e196.png" Reference="sSBR3gtlDUCEvkvULjr_tA/m_f7HPgCV0Sqm8S_wqwuVw" ScopeSelectorArgument="&lt;wnd app='credentialuibroker.exe' cls='Credential Dialog Xaml Host' title='Windows Security' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
                     </uix:NClick.Target>

@@ -103,7 +103,7 @@
       <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Launch_QuickBooks" sap:VirtualizedContainerService.HintSize="1187,6418" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Launch_QuickBooks" sap:VirtualizedContainerService.HintSize="801.2,7821.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Default="Login QuickBooks" Name="strPageName" />
       <Variable x:TypeArguments="x:Boolean" Name="boolPageLoaded" />
@@ -115,8 +115,8 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:LogMessage DisplayName="Log Message - Page Started" sap:VirtualizedContainerService.HintSize="632,175" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Trace" Message="[strPageName+&quot; has started&quot;]" />
-    <TryCatch DisplayName="Try Catch -  Launch QuickBooks" sap:VirtualizedContainerService.HintSize="632,6054" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+    <ui:LogMessage DisplayName="Log Message - Page Started" sap:VirtualizedContainerService.HintSize="660.8,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Trace" Message="[strPageName+&quot; has started&quot;]" />
+    <TryCatch DisplayName="Try Catch -  Launch QuickBooks" sap:VirtualizedContainerService.HintSize="660.8,7458.4" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -124,22 +124,22 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <TryCatch.Try>
-        <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="630,5441" sap2010:WorkflowViewState.IdRef="Sequence_7">
+        <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="659.2,6846.4" sap2010:WorkflowViewState.IdRef="Sequence_7">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:RetryScope DisplayName="Retry Launch QuickBooks" sap:VirtualizedContainerService.HintSize="596,5381" sap2010:WorkflowViewState.IdRef="RetryScope_1" LogRetriedExceptions="True" RetriedExceptionsLogLevel="Error">
+          <ui:RetryScope DisplayName="Retry Launch QuickBooks" sap:VirtualizedContainerService.HintSize="625.6,6786.4" sap2010:WorkflowViewState.IdRef="RetryScope_1" LogRetriedExceptions="True" RetriedExceptionsLogLevel="Error">
             <ui:RetryScope.ActivityBody>
               <ActivityAction>
-                <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="594,5041" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="624,6446.4" sap2010:WorkflowViewState.IdRef="Sequence_6">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uix:NApplicationCard sap2010:Annotation.AnnotationText="Closes any open chrome instances" AttachMode="ByInstance" CloseMode="Always" ContinueOnError="True" DisplayName="Close chrome instance" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="560,88" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="Simulate" OpenMode="Never" ScopeGuid="ea3fa787-20ff-4c30-9459-04f1c3ad0e3e" Timeout="[CInt(Config(&quot;MediumWait&quot;).ToString)]" Version="V2">
+                  <uix:NApplicationCard sap2010:Annotation.AnnotationText="Closes any open chrome instances" AttachMode="ByInstance" CloseMode="Always" ContinueOnError="True" DisplayName="Close chrome instance" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="590.4,88" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="Simulate" OpenMode="Never" ScopeGuid="ea3fa787-20ff-4c30-9459-04f1c3ad0e3e" Timeout="[CInt(Config(&quot;MediumWait&quot;).ToString)]" Version="V2">
                     <uix:NApplicationCard.Body>
                       <ActivityAction x:TypeArguments="x:Object">
                         <ActivityAction.Argument>
@@ -179,21 +179,21 @@
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </uix:NApplicationCard>
-                  <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="QuickBooks Login" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="560,4893" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" IsIncognito="True" OpenMode="Always" ScopeGuid="9953685b-bbe5-46ff-a403-c8e1cdbb1c70" Version="V2" WindowResize="Maximize">
+                  <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="QuickBooks Login" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="590.4,6298.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" IsIncognito="True" OpenMode="Always" ScopeGuid="9953685b-bbe5-46ff-a403-c8e1cdbb1c70" Version="V2" WindowResize="Maximize">
                     <uix:NApplicationCard.Body>
                       <ActivityAction x:TypeArguments="x:Object">
                         <ActivityAction.Argument>
                           <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                         </ActivityAction.Argument>
-                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="558,4699" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="588.8,6104.8" sap2010:WorkflowViewState.IdRef="Sequence_2">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <uix:NCheckState sap2010:Annotation.AnnotationText="Initial check to ensure that the page has been loaded." DisplayName="Check Login page appeared" Exists="[boolPageLoaded]" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="524,4639" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="9953685b-bbe5-46ff-a403-c8e1cdbb1c70" Timeout="[CInt(Config(&quot;XXLWait&quot;))]" Version="V5">
+                          <uix:NCheckState sap2010:Annotation.AnnotationText="Initial check to ensure that the page has been loaded." DisplayName="Check Login page appeared" Exists="[boolPageLoaded]" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="555.2,6044.8" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="9953685b-bbe5-46ff-a403-c8e1cdbb1c70" Timeout="[CInt(Config(&quot;XXLWait&quot;))]" Version="V5">
                             <uix:NCheckState.IfExists>
-                              <Sequence sap2010:Annotation.AnnotationText="Actions to be performed once the page is confirmed to be loaded." DisplayName="Login Page Appeared" sap:VirtualizedContainerService.HintSize="522,4154" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                              <Sequence sap2010:Annotation.AnnotationText="Actions to be performed once the page is confirmed to be loaded." DisplayName="Login Page Appeared" sap:VirtualizedContainerService.HintSize="553.6,5560" sap2010:WorkflowViewState.IdRef="Sequence_3">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -201,14 +201,14 @@
                                     <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ui:LogMessage DisplayName="Log Message - QBooks Launched" sap:VirtualizedContainerService.HintSize="488,175" sap2010:WorkflowViewState.IdRef="LogMessage_4" Message="[&quot;The QuickBooks have been launched successfully&quot;]" />
-                                <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="QuickBooks Login" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="488,3106" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="Simulate" OpenMode="Never" ScopeGuid="06b3b744-ea56-49d7-8985-dcb2435e0c30" Version="V2" WindowResize="Maximize">
+                                <ui:LogMessage DisplayName="Log Message - QBooks Launched" sap:VirtualizedContainerService.HintSize="520,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_4" Message="[&quot;The QuickBooks have been launched successfully&quot;]" />
+                                <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="QuickBooks Login" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="520,3344" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="Simulate" OpenMode="Never" ScopeGuid="06b3b744-ea56-49d7-8985-dcb2435e0c30" Version="V2" WindowResize="Maximize">
                                   <uix:NApplicationCard.Body>
                                     <ActivityAction x:TypeArguments="x:Object">
                                       <ActivityAction.Argument>
                                         <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                                       </ActivityAction.Argument>
-                                      <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,2903" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                                      <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="484.8,3141.6" sap2010:WorkflowViewState.IdRef="Sequence_14">
                                         <Sequence.Variables>
                                           <Variable x:TypeArguments="ss:SecureString" Name="strPassword" />
                                         </Sequence.Variables>
@@ -217,7 +217,7 @@
                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
-                                        <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="QBooks_LoginCredentials" CacheStrategy="None" DisplayName="Get QBooks Login Credential" FolderPath="abraham.donald@wonderbotz.com's workspace" sap:VirtualizedContainerService.HintSize="452,176" sap2010:WorkflowViewState.IdRef="GetRobotCredential_3" Password="[strPassword]" Username="[strUserName]">
+                                        <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="QBooks_LoginCredentials" CacheStrategy="None" DisplayName="Get QBooks Login Credential" FolderPath="abraham.donald@wonderbotz.com's workspace" sap:VirtualizedContainerService.HintSize="451.2,175.2" sap2010:WorkflowViewState.IdRef="GetRobotCredential_3" Password="[strPassword]" Username="[strUserName]">
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -225,7 +225,7 @@
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
                                         </ui:GetRobotCredential>
-                                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Email or User ID'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,266" sap2010:WorkflowViewState.IdRef="NClick_10" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="9953685b-bbe5-46ff-a403-c8e1cdbb1c70" Version="V5">
+                                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Email or User ID'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="451.2,265.6" sap2010:WorkflowViewState.IdRef="NClick_10" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="9953685b-bbe5-46ff-a403-c8e1cdbb1c70" Version="V5">
                                           <uix:NClick.Target>
                                             <uix:TargetAnchorable BrowserURL="accounts.intuit.com/app/sign-in" CVScreenId="1eb64f81-377d-4d99-bf8b-5d108af3fe8c" ContentHash="OJ699azsU0C8Ndkoj8mWdw" DesignTimeRectangle="798, 371, 170, 40" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='idsTab-EMAIL_USER_ID' visibleinnertext='Email or user ID' /&gt;" Guid="5f682258-94a9-470f-ad5e-f42c013c56c4" InformativeScreenshot="5bfdad92a8c57313fbacdfd2d4b46bde.png" Reference="sSBR3gtlDUCEvkvULjr_tA/LLWSh2ykPESTDGL4bGe3KQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='QuickBooks Online Login*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete" />
                                           </uix:NClick.Target>
@@ -246,7 +246,7 @@
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
                                         </uix:NClick>
-                                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" ClipboardMode="Never" DisplayName="Type Into 'UserName'" EmptyFieldMode="SingleLine" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,246" sap2010:WorkflowViewState.IdRef="NTypeInto_6" InteractionMode="HardwareEvents" ScopeIdentifier="9953685b-bbe5-46ff-a403-c8e1cdbb1c70" Text="[strUserName]" Version="V5">
+                                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" ClipboardMode="Never" DisplayName="Type Into 'UserName'" EmptyFieldMode="SingleLine" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="451.2,245.6" sap2010:WorkflowViewState.IdRef="NTypeInto_6" InteractionMode="HardwareEvents" ScopeIdentifier="9953685b-bbe5-46ff-a403-c8e1cdbb1c70" Text="[strUserName]" Version="V5">
                                           <uix:NTypeInto.Target>
                                             <uix:TargetAnchorable BrowserURL="accounts.intuit.com/app/sign-in" CVScreenId="1eb64f81-377d-4d99-bf8b-5d108af3fe8c" ContentHash="vvhXKM0w3020K656lLyqJg" DesignTimeRectangle="798, 455, 340, 36" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl name='Email' parentid='idsTab-EMAIL_USER_ID-tabPanel' /&gt;" Guid="de0f3bd6-c215-432f-8a92-93feb84fe77f" InformativeScreenshot="1979b08103edb0167b286f50b640ce11.png" Reference="sSBR3gtlDUCEvkvULjr_tA/PU3Aim--MEabqwW7X__LvQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='QuickBooks Online Login*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete" />
                                           </uix:NTypeInto.Target>
@@ -264,7 +264,7 @@
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
                                         </uix:NTypeInto>
-                                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Sign In'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_11" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="9953685b-bbe5-46ff-a403-c8e1cdbb1c70" Version="V5">
+                                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Sign In'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="451.2,193.6" sap2010:WorkflowViewState.IdRef="NClick_11" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="9953685b-bbe5-46ff-a403-c8e1cdbb1c70" Version="V5">
                                           <uix:NClick.Target>
                                             <uix:TargetAnchorable BrowserURL="accounts.intuit.com/app/sign-in" CVScreenId="f8b4c8dd-3f58-4f56-8192-1939d6e8b053" ContentHash="Sv4aodugikmSW0ANq6i3Qw" DesignTimeRectangle="798, 507, 340, 36" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl type='submit' aaname='Sign in' /&gt;" Guid="ef839acf-4435-451b-b0dd-53b8f4c6466e" InformativeScreenshot="b2c8b0a353dfe0a1d30370e27b7b2089.png" Reference="sSBR3gtlDUCEvkvULjr_tA/m7OM3ECm0UOoiCTcjxAXLA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='QuickBooks Online Login*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Complete">
                                               <uix:TargetAnchorable.Anchors>
@@ -281,12 +281,12 @@
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
                                         </uix:NClick>
-                                        <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Handle_WindowsSecurity - Invoke Workflow File (QuickBooks_Actions\Handle_WindowsSecurity.xaml)" sap:VirtualizedContainerService.HintSize="452,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="QuickBooks_Actions\Handle_WindowsSecurity.xaml">
+                                        <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Handle_WindowsSecurity - Invoke Workflow File (QuickBooks_Actions\Handle_WindowsSecurity.xaml)" sap:VirtualizedContainerService.HintSize="451.2,176" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="QuickBooks_Actions\Handle_WindowsSecurity.xaml">
                                           <ui:InvokeWorkflowFile.Arguments>
                                             <scg:Dictionary x:TypeArguments="x:String, Argument" />
                                           </ui:InvokeWorkflowFile.Arguments>
                                         </ui:InvokeWorkflowFile>
-                                        <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+                                        <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="451.2,56.8" sap2010:WorkflowViewState.IdRef="CommentOut_2">
                                           <ui:CommentOut.Body>
                                             <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="522,2335" sap2010:WorkflowViewState.IdRef="Sequence_21">
                                               <sap:WorkflowViewStateService.ViewState>
@@ -557,7 +557,7 @@
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
                                         </ui:CommentOut>
-                                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Select Enter Password'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_12" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="06b3b744-ea56-49d7-8985-dcb2435e0c30" Version="V5">
+                                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Select Enter Password'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="451.2,193.6" sap2010:WorkflowViewState.IdRef="NClick_12" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="06b3b744-ea56-49d7-8985-dcb2435e0c30" Version="V5">
                                           <uix:NClick.Target>
                                             <uix:TargetAnchorable BrowserURL="accounts.intuit.com/app/sign-in" CVScreenId="25d21326-6918-498d-9a9e-c6e72e6dc390" ContentHash="RwAqYRxXq0CSK6WzHndGmg" DesignTimeRectangle="823, 641, 126, 21" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Enter password ' /&gt;" Guid="f262151d-ff22-42b9-b1c2-5e673d060cdb" InformativeScreenshot="4bb9c37b9f6e0659fa0bc2f29d333084.png" Reference="sSBR3gtlDUCEvkvULjr_tA/_f0OG7csnkab-TRa0SKU2Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='QuickBooks Online Login: Sign in to Access Your QuickBooks Account' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
                                               <uix:TargetAnchorable.Anchors>
@@ -568,7 +568,7 @@
                                             </uix:TargetAnchorable>
                                           </uix:NClick.Target>
                                         </uix:NClick>
-                                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Password'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,246" sap2010:WorkflowViewState.IdRef="NTypeInto_7" ScopeIdentifier="06b3b744-ea56-49d7-8985-dcb2435e0c30" SecureText="[strPassword]" Version="V5">
+                                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Password'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="451.2,297.6" sap2010:WorkflowViewState.IdRef="NTypeInto_7" ScopeIdentifier="06b3b744-ea56-49d7-8985-dcb2435e0c30" SecureText="[strPassword]" Version="V5">
                                           <uix:NTypeInto.Target>
                                             <uix:TargetAnchorable BrowserURL="accounts.intuit.com/app/sign-in" CVScreenId="8a89d721-bc53-407f-8575-32b2b62089a1" ContentHash="P7kmVW9sXUmPVyElYRjddg" DesignTimeRectangle="798, 381, 340, 36" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Password' inputmode='text' /&gt;" Guid="d2cd8e87-57e1-4e90-b38a-64b97f17ff57" InformativeScreenshot="e52f3bee77339cf20d210f2f6c7d545f.png" Reference="sSBR3gtlDUCEvkvULjr_tA/dE3JRQcl1E2cyqgCKYWcZw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='QuickBooks Online Login: Sign*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
                                           </uix:NTypeInto.Target>
@@ -583,27 +583,32 @@
                                             </uix:VerifyExecutionTypeIntoOptions>
                                           </uix:NTypeInto.VerifyOptions>
                                         </uix:NTypeInto>
-                                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Continue'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_13" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="06b3b744-ea56-49d7-8985-dcb2435e0c30" Version="V5">
+                                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Continue'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="451.2,193.6" sap2010:WorkflowViewState.IdRef="NClick_13" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="06b3b744-ea56-49d7-8985-dcb2435e0c30" Version="V5">
                                           <uix:NClick.Target>
                                             <uix:TargetAnchorable BrowserURL="accounts.intuit.com/app/sign-in" CVScreenId="5159d5c7-8cfd-452e-a41c-cd703279a79a" ContentHash="KZaiU9yV8U-8Uvnn8qfEKQ" DesignTimeRectangle="798, 456, 340, 36" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' innertext='Continue' /&gt;" Guid="dba39be8-cdb7-4697-ab18-ca30847e5682" InformativeScreenshot="685dc6942744e5b8cd3f387404091e7f.png" Reference="sSBR3gtlDUCEvkvULjr_tA/9tJ84a2RMEustcuKCi8_cQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='QuickBooks Online Login: Sign*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
                                           </uix:NClick.Target>
                                         </uix:NClick>
-                                        <uix:NCheckState DisplayName="Check App State 'Authenticator App'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,1093" sap2010:WorkflowViewState.IdRef="NCheckState_6" ScopeIdentifier="06b3b744-ea56-49d7-8985-dcb2435e0c30" Version="V5">
+                                        <uix:NCheckState DisplayName="Check App State 'Authenticator App'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="451.2,1284" sap2010:WorkflowViewState.IdRef="NCheckState_6" ScopeIdentifier="06b3b744-ea56-49d7-8985-dcb2435e0c30" Version="V5">
                                           <uix:NCheckState.IfExists>
-                                            <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,718" sap2010:WorkflowViewState.IdRef="Sequence_22">
+                                            <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,909.6" sap2010:WorkflowViewState.IdRef="Sequence_22">
                                               <sap:WorkflowViewStateService.ViewState>
                                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                 </scg:Dictionary>
                                               </sap:WorkflowViewStateService.ViewState>
-                                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_10" Level="Info" Message="[&quot;App requesting MFA &quot;]" />
-                                              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Authenticator App'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_14" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="06b3b744-ea56-49d7-8985-dcb2435e0c30" Version="V5">
+                                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_10" Level="Info" Message="[&quot;App requesting MFA &quot;]" />
+                                              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Authenticator App'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,193.6" sap2010:WorkflowViewState.IdRef="NClick_14" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="06b3b744-ea56-49d7-8985-dcb2435e0c30" Version="V5">
                                                 <uix:NClick.Target>
-                                                  <uix:TargetAnchorable BrowserURL="accounts.intuit.com/app/sign-in" CVScreenId="2c70da0a-78f7-49b8-83d6-3ab047872ee3" ContentHash="jshPxSWYIUqi1VMNCkLn1g" DesignTimeRectangle="859, 600, 117, 17" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Authenticator app* ' /&gt;" Guid="e964644e-01b0-40a5-b32f-ead15ad64cd4" InformativeScreenshot="e12fcbf00872084e082f3b0d78ba685c.png" Reference="sSBR3gtlDUCEvkvULjr_tA/9DZ_CyAFgkagCpch6IWgeg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='QuickBooks Online Login: Sign in to Access Your QuickBooks Account' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+                                                  <uix:TargetAnchorable BrowserURL="accounts.intuit.com/app/sign-in" CVScreenId="2c70da0a-78f7-49b8-83d6-3ab047872ee3" ContentHash="1HlLCdD3yUCcgqEyshOBow" DesignTimeRectangle="859, 600, 117, 17" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Authenticator app* ' /&gt;" Guid="e964644e-01b0-40a5-b32f-ead15ad64cd4" InformativeScreenshot="e12fcbf00872084e082f3b0d78ba685c.png" Reference="sSBR3gtlDUCEvkvULjr_tA/9DZ_CyAFgkagCpch6IWgeg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='QuickBooks Online Login: Sign in to Access Your QuickBooks Account' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
                                                 </uix:NClick.Target>
                                               </uix:NClick>
-                                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_11" Level="Info" Message="[&quot;MFA handled using DashLane code &quot;]" />
-                                              <Delay Duration="00:01:00" sap:VirtualizedContainerService.HintSize="416,114" sap2010:WorkflowViewState.IdRef="Delay_1" />
+                                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_11" Level="Info" Message="[&quot;MFA handled using DashLane code &quot;]" />
+                                              <Delay Duration="00:01:00" sap:VirtualizedContainerService.HintSize="416,122.4" sap2010:WorkflowViewState.IdRef="Delay_1" />
+                                              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Continue'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,184.8" sap2010:WorkflowViewState.IdRef="NClick_15" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="06b3b744-ea56-49d7-8985-dcb2435e0c30" Version="V5">
+                                                <uix:NClick.Target>
+                                                  <uix:TargetAnchorable BrowserURL="accounts.intuit.com/app/sign-in" CVScreenId="5159d5c7-8cfd-452e-a41c-cd703279a79a" ContentHash="KZaiU9yV8U-8Uvnn8qfEKQ" DesignTimeRectangle="798, 456, 340, 36" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' innertext='Continue' /&gt;" Guid="dba39be8-cdb7-4697-ab18-ca30847e5682" InformativeScreenshot="685dc6942744e5b8cd3f387404091e7f.png" Reference="sSBR3gtlDUCEvkvULjr_tA/9tJ84a2RMEustcuKCi8_cQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='QuickBooks Online Login: Sign*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                                                </uix:NClick.Target>
+                                              </uix:NClick>
                                             </Sequence>
                                           </uix:NCheckState.IfExists>
                                           <uix:NCheckState.IfNotExists>
@@ -616,7 +621,7 @@
                                             </Sequence>
                                           </uix:NCheckState.IfNotExists>
                                           <uix:NCheckState.Target>
-                                            <uix:TargetAnchorable BrowserURL="accounts.intuit.com/app/sign-in" CVScreenId="2c70da0a-78f7-49b8-83d6-3ab047872ee3" ContentHash="jshPxSWYIUqi1VMNCkLn1g" DesignTimeRectangle="859, 600, 117, 17" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Authenticator app* ' /&gt;" Guid="e964644e-01b0-40a5-b32f-ead15ad64cd4" InformativeScreenshot="e12fcbf00872084e082f3b0d78ba685c.png" Reference="sSBR3gtlDUCEvkvULjr_tA/9DZ_CyAFgkagCpch6IWgeg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='QuickBooks Online Login: Sign in to Access Your QuickBooks Account' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+                                            <uix:TargetAnchorable BrowserURL="accounts.intuit.com/app/sign-in" CVScreenId="2c70da0a-78f7-49b8-83d6-3ab047872ee3" ContentHash="1HlLCdD3yUCcgqEyshOBow" DesignTimeRectangle="859, 600, 117, 17" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Authenticator app* ' /&gt;" Guid="e964644e-01b0-40a5-b32f-ead15ad64cd4" InformativeScreenshot="e12fcbf00872084e082f3b0d78ba685c.png" Reference="sSBR3gtlDUCEvkvULjr_tA/9DZ_CyAFgkagCpch6IWgeg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='QuickBooks Online Login: Sign in to Access Your QuickBooks Account' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Interactive]" />
                                           </uix:NCheckState.Target>
                                         </uix:NCheckState>
                                       </Sequence>
@@ -646,26 +651,84 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </uix:NApplicationCard>
-                                <uix:NCheckState sap2010:Annotation.AnnotationText="Check to see if the page appears with already logged in state. The bot will not do login steps in this case." DisplayName="Check 'Accountant' element appeared" Exists="[boolLoggedIn]" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="488,782" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="9953685b-bbe5-46ff-a403-c8e1cdbb1c70" Timeout="[CInt(Config(&quot;XLWait&quot;))]" Version="V5">
-                                  <uix:NCheckState.IfExists>
-                                    <Sequence DisplayName="Login Success" sap:VirtualizedContainerService.HintSize="450,226" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                                <ui:CommentOut sap2010:Annotation.AnnotationText="Commenting the Tour PopUp Logic as it will not impact Bot flow" DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="520,1169.6" sap2010:WorkflowViewState.IdRef="CommentOut_3">
+                                  <ui:CommentOut.Body>
+                                    <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="484.8,1028" sap2010:WorkflowViewState.IdRef="Sequence_26">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
-                                      <ui:LogMessage DisplayName="Log Message - Login success" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="LogMessage_6" Message="[&quot;Successfully Logged into QBooks&quot;]" />
+                                      <uix:NCheckState DisplayName="Check App State 'Take a Tour PopUP'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="451.2,968" sap2010:WorkflowViewState.IdRef="NCheckState_7" ScopeIdentifier="9953685b-bbe5-46ff-a403-c8e1cdbb1c70" Timeout="[CInt(Config(&quot;LongWait&quot;))]" Version="V5">
+                                        <uix:NCheckState.IfExists>
+                                          <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,593.6" sap2010:WorkflowViewState.IdRef="Sequence_24">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_12" Level="Info" Message="[&quot;QuickBooks Payroll care Tour PopUp appeared&quot;]" />
+                                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Take a Tour PopUP'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,193.6" sap2010:WorkflowViewState.IdRef="NClick_16" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="9953685b-bbe5-46ff-a403-c8e1cdbb1c70" Version="V5">
+                                              <uix:NClick.Target>
+                                                <uix:TargetAnchorable BrowserURL="qbo.intuit.com/app/payroll" CVScreenId="e1008a46-8fda-40a2-97a2-17f281d14691" ContentHash="4ntNKtYgTk-Ys6Gp9Quy3w" CvElementArea="1373, 243, 43, 41" CvType="CloseButton" DesignTimeRectangle="1380, 250, 30, 30" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-label='Close' tag='BUTTON' /&gt;" Guid="b6748e30-928b-45ae-af8a-7eed2fc39163" InformativeScreenshot="1a7474b71e97b9dc5e35e680073c465b.png" Reference="sSBR3gtlDUCEvkvULjr_tA/TV_RP43mKEKwxUqZT4ccGg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Payroll overview' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Complete]">
+                                                  <uix:TargetAnchorable.Anchors>
+                                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                      <uix:Target CVScreenId="e1008a46-8fda-40a2-97a2-17f281d14691" CvTextArea="537, 430, 542, 41" CvTextArgument="QuickBooks Payroll Core" CvType="Text" DesignTimeRectangle="539, 429, 539, 42" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='QuickBooks Payroll Core' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='QuickBooks Payroll Core' /&gt;" Guid="fb03f6a1-b4c6-48c7-a1ff-23175cd5c903" SearchSteps="FuzzySelector, CV" />
+                                                    </scg:List>
+                                                  </uix:TargetAnchorable.Anchors>
+                                                </uix:TargetAnchorable>
+                                              </uix:NClick.Target>
+                                            </uix:NClick>
+                                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_13" Level="Info" Message="[&quot;QuickBooks Payroll care Tour PopUp closed by Bot&quot;]" />
+                                          </Sequence>
+                                        </uix:NCheckState.IfExists>
+                                        <uix:NCheckState.IfNotExists>
+                                          <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="449.6,89.6" sap2010:WorkflowViewState.IdRef="Sequence_25">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                          </Sequence>
+                                        </uix:NCheckState.IfNotExists>
+                                        <uix:NCheckState.Target>
+                                          <uix:TargetAnchorable BrowserURL="qbo.intuit.com/app/payroll" CVScreenId="e1008a46-8fda-40a2-97a2-17f281d14691" ContentHash="4ntNKtYgTk-Ys6Gp9Quy3w" CvElementArea="1373, 243, 43, 41" CvType="CloseButton" DesignTimeRectangle="1380, 250, 30, 30" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-label='Close' tag='BUTTON' /&gt;" Guid="b6748e30-928b-45ae-af8a-7eed2fc39163" InformativeScreenshot="1a7474b71e97b9dc5e35e680073c465b.png" Reference="sSBR3gtlDUCEvkvULjr_tA/TV_RP43mKEKwxUqZT4ccGg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Payroll overview' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Interactive]">
+                                            <uix:TargetAnchorable.Anchors>
+                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                <uix:Target CVScreenId="e1008a46-8fda-40a2-97a2-17f281d14691" CvTextArea="537, 430, 542, 41" CvTextArgument="QuickBooks Payroll Core" CvType="Text" DesignTimeRectangle="539, 429, 539, 42" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='QuickBooks Payroll Core' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='QuickBooks Payroll Core' /&gt;" Guid="fb03f6a1-b4c6-48c7-a1ff-23175cd5c903" SearchSteps="FuzzySelector, CV" />
+                                              </scg:List>
+                                            </uix:TargetAnchorable.Anchors>
+                                          </uix:TargetAnchorable>
+                                        </uix:NCheckState.Target>
+                                      </uix:NCheckState>
+                                    </Sequence>
+                                  </ui:CommentOut.Body>
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                </ui:CommentOut>
+                                <uix:NCheckState sap2010:Annotation.AnnotationText="Check to see if the page appears with already logged in state. The bot will not do login steps in this case." DisplayName="Check 'Accountant' element appeared" Exists="[boolLoggedIn]" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="520,780.8" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="9953685b-bbe5-46ff-a403-c8e1cdbb1c70" Timeout="[CInt(Config(&quot;XLWait&quot;))]" Version="V5">
+                                  <uix:NCheckState.IfExists>
+                                    <Sequence DisplayName="Login Success" sap:VirtualizedContainerService.HintSize="449.6,225.6" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                      <ui:LogMessage DisplayName="Log Message - Login success" sap:VirtualizedContainerService.HintSize="416,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_6" Message="[&quot;Successfully Logged into QBooks&quot;]" />
                                     </Sequence>
                                   </uix:NCheckState.IfExists>
                                   <uix:NCheckState.IfNotExists>
-                                    <Sequence DisplayName="Login Failed" sap:VirtualizedContainerService.HintSize="450,226" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                                    <Sequence DisplayName="Login Failed" sap:VirtualizedContainerService.HintSize="449.6,225.6" sap2010:WorkflowViewState.IdRef="Sequence_11">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
-                                      <ui:LogMessage DisplayName="Log Message - Login failed" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Error" Message="[&quot;Login to Qbooks failed as the element used to identify success login is not found&quot;]" />
+                                      <ui:LogMessage DisplayName="Log Message - Login failed" sap:VirtualizedContainerService.HintSize="416,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Error" Message="[&quot;Login to Qbooks failed as the element used to identify success login is not found&quot;]" />
                                     </Sequence>
                                   </uix:NCheckState.IfNotExists>
                                   <uix:NCheckState.Target>
@@ -688,14 +751,14 @@
                               </Sequence>
                             </uix:NCheckState.IfExists>
                             <uix:NCheckState.IfNotExists>
-                              <Sequence DisplayName="Login Page does not appear" sap:VirtualizedContainerService.HintSize="522,169" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                              <Sequence DisplayName="Login Page does not appear" sap:VirtualizedContainerService.HintSize="553.6,168.8" sap2010:WorkflowViewState.IdRef="Sequence_4">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <uix:NCheckState sap2010:Annotation.AnnotationText="Check to see if the page appears with already logged in state. The bot will not do login steps in this case." DisplayName="Check if already logged in" Exists="[boolLoggedIn]" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="416,109" sap2010:WorkflowViewState.IdRef="NCheckState_4" ScopeIdentifier="9953685b-bbe5-46ff-a403-c8e1cdbb1c70" Timeout="[CInt(Config(&quot;XLWait&quot;))]" Version="V5">
+                                <uix:NCheckState sap2010:Annotation.AnnotationText="Check to see if the page appears with already logged in state. The bot will not do login steps in this case." DisplayName="Check if already logged in" Exists="[boolLoggedIn]" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="416,108.8" sap2010:WorkflowViewState.IdRef="NCheckState_4" ScopeIdentifier="9953685b-bbe5-46ff-a403-c8e1cdbb1c70" Timeout="[CInt(Config(&quot;XLWait&quot;))]" Version="V5">
                                   <uix:NCheckState.IfExists>
                                     <Sequence DisplayName="Target appears - Accountant" sap:VirtualizedContainerService.HintSize="449.6,227.2" sap2010:WorkflowViewState.IdRef="Sequence_16">
                                       <sap:WorkflowViewStateService.ViewState>
@@ -780,7 +843,7 @@
             </ui:RetryScope.ActivityBody>
             <ui:RetryScope.Condition>
               <ActivityFunc x:TypeArguments="x:Boolean">
-                <ui:CheckTrue ErrorMessage="{x:Null}" sap2010:Annotation.AnnotationText="Bot checks the value of this boolean to decide if the action inside the Retry Scope needs to be retried." DisplayName="Check True - Site Loaded" Expression="[boolPageLoaded or boolLoggedIn]" sap:VirtualizedContainerService.HintSize="570,192" sap2010:WorkflowViewState.IdRef="CheckTrue_1">
+                <ui:CheckTrue ErrorMessage="{x:Null}" sap2010:Annotation.AnnotationText="Bot checks the value of this boolean to decide if the action inside the Retry Scope needs to be retried." DisplayName="Check True - Site Loaded" Expression="[boolPageLoaded or boolLoggedIn]" sap:VirtualizedContainerService.HintSize="600,192" sap2010:WorkflowViewState.IdRef="CheckTrue_1">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
@@ -804,7 +867,7 @@
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="630,349" sap2010:WorkflowViewState.IdRef="Sequence_9">
+            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="659.2,348.8" sap2010:WorkflowViewState.IdRef="Sequence_9">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -818,7 +881,7 @@
         </Catch>
       </TryCatch.Catches>
       <TryCatch.Finally>
-        <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="594,90" sap2010:WorkflowViewState.IdRef="Sequence_8">
+        <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="630,90" sap2010:WorkflowViewState.IdRef="Sequence_8">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -827,6 +890,6 @@
         </Sequence>
       </TryCatch.Finally>
     </TryCatch>
-    <ui:LogMessage DisplayName="Log Message - Page Ended" sap:VirtualizedContainerService.HintSize="632,166" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Trace" Message="[strPageName+&quot; has Ended&quot;]" />
+    <ui:LogMessage DisplayName="Log Message - Page Ended" sap:VirtualizedContainerService.HintSize="660.8,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Trace" Message="[strPageName+&quot; has Ended&quot;]" />
   </Sequence>
 </Activity>
