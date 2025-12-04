@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="KCjC4gX2w0uL7AjyA4Z0ZA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="accounts.intuit.com/app/sign-in" CVScreenId="c0818bd0-65c9-4875-8fab-557500c609b0" DesignTimeRectangle="747, 544, 425, 45" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' aaname='Enter the 6-digit code ' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' name='Enter the 6-digit code' /&gt;" Guid="35f4e382-25a6-4426-990f-691794875b38" ScopeSelectorArgument="&lt;html app='chrome.exe' title='QuickBooks Online Login: Sign in to Access Your QuickBooks Account' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c0818bd0-65c9-4875-8fab-557500c609b0" DesignTimeRectangle="1044, 638, 128, 45" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' aaname='Continue' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Continue' /&gt;" Guid="cccecfba-f2a9-42e7-9518-478d7f140c1b" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2f9d4a7b94fcfdbac2de09f1b6bd8ef1.png" xmlns="">0bF2GkbEkAECmVNv4rNe1XA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
